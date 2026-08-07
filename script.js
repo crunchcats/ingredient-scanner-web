@@ -45,15 +45,17 @@ const translations = {
       "The app shows a simple glucose impact bar with more detail available.",
     trustKicker: "Why you can rely on it",
     trustTitle: "Built to be trusted, not clever.",
-    trustOneTitle: "Nothing leaves your phone",
+    trustOneTitle: "We never see what you scanned",
     trustOneText:
-      "Scans are read on your device and then forgotten. No account, no sign-up, no tracking, and nothing sent to a server.",
-    trustTwoTitle: "A database checked by hand",
+      "The photo stays on your phone and your phone reads the text itself. If an ingredient is missing from the list, you can choose to send its name so it can be added — just that one word.",
+    trustTwoTitle: "Written by people who live with it",
     trustTwoText:
-      "Every ingredient and its blood sugar impact is reviewed and curated, so a result is a considered answer rather than a guess.",
-    trustThreeTitle: "Works without a signal",
+      "The list is put together by Danes with type 2 diabetes. The app always shows why an ingredient got its rating, so you can weigh up the reasoning yourself.",
+    trustThreeTitle: "Works with no signal",
     trustThreeText:
-      "The whole database lives in the app, so it works in the back of a shop, in a basement freezer aisle, or on holiday.",
+      "The whole list is built into the app. It works from the very first launch — at the back of a shop, in a basement freezer aisle, or on holiday.",
+    trustNote:
+      "The app reports crashes and counts how often it is used, so it can be improved. Neither includes anything about what you scanned.",
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
@@ -112,15 +114,17 @@ const translations = {
       "Appen viser en enkel blodsukkerbjælke med mulighed for flere detaljer.",
     trustKicker: "Derfor kan du stole på den",
     trustTitle: "Bygget til at være til at stole på.",
-    trustOneTitle: "Intet forlader din telefon",
+    trustOneTitle: "Vi ser aldrig, hvad du har scannet",
     trustOneText:
-      "Scanninger læses på din egen telefon og glemmes bagefter. Ingen konto, ingen oprettelse, ingen sporing, og intet sendes til en server.",
-    trustTwoTitle: "En database tjekket i hånden",
+      "Billedet bliver på din telefon, og telefonen læser selv teksten. Mangler en ingrediens på listen, kan du vælge at sende dens navn, så den kan blive tilføjet — kun det ene ord.",
+    trustTwoTitle: "Skrevet af nogen, der selv lever med det",
     trustTwoText:
-      "Hver ingrediens og dens påvirkning af blodsukkeret er gennemgået og udvalgt, så et resultat er et gennemtænkt svar og ikke et gæt.",
+      "Listen er sat sammen af danskere med type 2-diabetes. Appen viser altid, hvorfor en ingrediens har fået sin vurdering, så du selv kan tage stilling til begrundelsen.",
     trustThreeTitle: "Virker uden signal",
     trustThreeText:
-      "Hele databasen ligger i appen, så den virker bagest i butikken, ved frostvarerne i kælderen eller på ferien.",
+      "Hele listen ligger i appen. Den virker fra allerførste start — bagest i butikken, ved frostvarerne i kælderen eller på ferien.",
+    trustNote:
+      "Appen rapporterer nedbrud og tæller, hvor ofte den bliver brugt, så den kan blive bedre. Ingen af delene indeholder noget om, hvad du har scannet.",
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
