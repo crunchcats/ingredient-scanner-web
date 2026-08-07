@@ -47,7 +47,7 @@ const translations = {
     trustTitle: "Built to be trusted, not clever.",
     trustOneTitle: "We never see what you scanned",
     trustOneText:
-      "The photo stays on your phone and your phone reads the text itself. If an ingredient is missing from the list, you can choose to send its name so it can be added — just that one word.",
+      "The photo stays on your phone and your phone reads the text itself. There is no server for it to be sent to — the app only ever downloads the list, and never uploads anything.",
     trustTwoTitle: "Written by people who live with it",
     trustTwoText:
       "The list is put together by Danes with type 2 diabetes. The app always shows why an ingredient got its rating, so you can weigh up the reasoning yourself.",
@@ -55,7 +55,7 @@ const translations = {
     trustThreeText:
       "The whole list is built into the app. It works from the very first launch — at the back of a shop, in a basement freezer aisle, or on holiday.",
     trustNote:
-      "The app reports crashes and counts how often it is used, so it can be improved. Neither includes anything about what you scanned.",
+      "The only figures we ever see are the aggregated download and usage counts that Apple and Google publish to every app in their stores. Nothing in them relates to what you scanned.",
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
@@ -117,7 +117,7 @@ const translations = {
     trustTitle: "Bygget til at være til at stole på.",
     trustOneTitle: "Vi ser aldrig, hvad du har scannet",
     trustOneText:
-      "Billedet bliver på din telefon, og telefonen læser selv teksten. Mangler en ingrediens på listen, kan du vælge at sende dens navn, så den kan blive tilføjet — kun det ene ord.",
+      "Billedet bliver på din telefon, og telefonen læser selv teksten. Der er ingen server, det kan blive sendt til — appen henter kun listen og sender aldrig noget op.",
     trustTwoTitle: "Skrevet af nogen, der selv lever med det",
     trustTwoText:
       "Listen er sat sammen af danskere med type 2-diabetes. Appen viser altid, hvorfor en ingrediens har fået sin vurdering, så du selv kan tage stilling til begrundelsen.",
@@ -125,7 +125,7 @@ const translations = {
     trustThreeText:
       "Hele listen ligger i appen. Den virker fra allerførste start — bagest i butikken, ved frostvarerne i kælderen eller på ferien.",
     trustNote:
-      "Appen rapporterer nedbrud og tæller, hvor ofte den bliver brugt, så den kan blive bedre. Ingen af delene indeholder noget om, hvad du har scannet.",
+      "De eneste tal, vi nogensinde ser, er de sammenlagte downloads og brugstal, som Apple og Google giver alle apps i deres butikker. Intet i dem handler om, hvad du har scannet.",
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
