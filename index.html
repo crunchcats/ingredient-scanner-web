@@ -12,90 +12,133 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
-      <section class="hero" aria-labelledby="page-title">
-        <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language">
-          <button class="language-option is-active" type="button" data-lang-choice="en">
-            English
-          </button>
-          <button class="language-option" type="button" data-lang-choice="da">
-            Dansk
-          </button>
-        </div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3.5c3.6 3.4 5.6 6.2 5.6 8.9A5.6 5.6 0 0 1 12 18a5.6 5.6 0 0 1-5.6-5.6c0-2.7 2-5.5 5.6-8.9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M9.6 12.6c.2 1.3 1.1 2.2 2.4 2.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-name" data-i18n="appName">Bloodsugar Guide</span>
+        </a>
 
-        <div class="hero-copy">
-          <p class="eyebrow" data-i18n="appName">Bloodsugar Guide</p>
-          <h1 id="page-title" data-i18n="heroTitle">Point at the ingredients list.</h1>
-          <p class="lede" data-i18n="heroText">
-            Scan a food label and see whether the ingredients include sweeteners
-            that may affect blood sugar.
-          </p>
-          <div class="actions" aria-label="Download options" data-i18n-aria="downloadOptions">
-            <a class="button primary disabled" aria-disabled="true" href="#ios" data-i18n="iosCta">
-              iOS coming soon
-            </a>
-            <a class="button secondary disabled" aria-disabled="true" href="#android" data-i18n="androidCta">
-              Android coming soon
-            </a>
+        <div class="header-actions">
+          <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language">
+            <button class="language-option is-active" type="button" data-lang-choice="en">
+              English
+            </button>
+            <button class="language-option" type="button" data-lang-choice="da">
+              Dansk
+            </button>
           </div>
         </div>
+      </div>
+    </header>
 
-        <div class="phone-stage" aria-label="App preview" data-i18n-aria="appPreview">
-          <div class="phone-mock" aria-hidden="true">
-            <div class="mock-status">
-              <span>9:41</span>
-              <span class="status-icons"></span>
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="status-badge" data-i18n="statusBadge">Coming soon to iOS and Android</p>
+            <h1 id="page-title" data-i18n="heroTitle">Point at the ingredients list.</h1>
+            <p class="lede" data-i18n="heroText">
+              Scan a food label and see whether the ingredients include sweeteners
+              that may affect blood sugar.
+            </p>
+
+            <div class="store-buttons" aria-label="Download options" data-i18n-aria="downloadOptions">
+              <a class="store-button is-pending" aria-disabled="true" href="#download">
+                <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M16.4 12.7c0-2.2 1.8-3.3 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.5-.7 2.9-.7 1.3 0 1.7.7 2.9.7 1.2 0 2-1.1 2.7-2.2.9-1.2 1.2-2.5 1.2-2.5s-2.3-.9-2.3-3.8Zm-2.3-7c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
+                </svg>
+                <span class="store-text">
+                  <small data-i18n="storePrefix">Coming soon on the</small>
+                  <strong data-i18n="storeApple">App Store</strong>
+                </span>
+              </a>
+
+              <a class="store-button is-pending" aria-disabled="true" href="#download">
+                <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M3.6 2.3a1 1 0 0 0-.4.8v17.8a1 1 0 0 0 .4.8l10-9.7-10-9.7Zm11.2 8.5 2.9-2.8-9.8-5.6a1 1 0 0 0-.4-.1l7.3 8.5Zm0 2.4-7.3 8.5c.1 0 .3 0 .4-.1l9.8-5.6-2.9-2.8Zm4.2-3.7L17.2 12l1.8 2.5 2.4-1.4a1.3 1.3 0 0 0 0-2.2l-2.4-1.4Z"/>
+                </svg>
+                <span class="store-text">
+                  <small data-i18n="storePrefix">Coming soon on the</small>
+                  <strong data-i18n="storeGoogle">Google Play</strong>
+                </span>
+              </a>
             </div>
-            <p class="mock-brand" data-i18n="mockBrand">Bloodsugar Guide</p>
-            <p class="mock-title" data-i18n="mockTitle">Point at ingredients list</p>
 
-            <div class="mock-camera">
-              <span class="corner top-left"></span>
-              <span class="corner top-right"></span>
-              <span class="corner bottom-left"></span>
-              <span class="corner bottom-right"></span>
-              <div class="label-card">
-                <p data-i18n="mockLabelTitle">Ingredients</p>
-                <span>Water</span>
-                <span data-i18n="mockLabelLineOne">Oats</span>
-                <span data-i18n="mockLabelLineTwo">Salt</span>
-                <span data-i18n="mockLabelLineThree">Natural flavor</span>
-                <span data-i18n="mockLabelLineFour">Sweetener</span>
-              </div>
-              <div class="status-pill">
-                <span class="dot"></span>
-                <span data-i18n="mockStatus">Scanning ingredients list...</span>
-              </div>
-            </div>
+            <p class="hero-note" data-i18n="heroNote">
+              Free to use. No account needed. Works without an internet connection.
+            </p>
+          </div>
 
-            <div class="mock-result">
-              <div class="grabber"></div>
-              <div class="result-topline">
-                <span class="checkmark">✓</span>
-                <div>
-                  <h2 data-i18n="mockVerdict">Great choice</h2>
-                  <p data-i18n="mockVerdictText">
-                    This product is unlikely to cause a large blood sugar spike.
-                  </p>
+          <div class="phone-stage" aria-label="App preview" data-i18n-aria="appPreview">
+            <div class="phone-mock" aria-hidden="true">
+              <div class="mock-status">
+                <span>9:41</span>
+                <span class="status-icons"></span>
+              </div>
+              <p class="mock-brand" data-i18n="mockBrand">Bloodsugar Guide</p>
+              <p class="mock-title" data-i18n="mockTitle">Point at ingredients list</p>
+
+              <div class="mock-camera">
+                <span class="corner top-left"></span>
+                <span class="corner top-right"></span>
+                <span class="corner bottom-left"></span>
+                <span class="corner bottom-right"></span>
+                <div class="label-card">
+                  <p data-i18n="mockLabelTitle">Ingredients</p>
+                  <span>Water</span>
+                  <span data-i18n="mockLabelLineOne">Oats</span>
+                  <span data-i18n="mockLabelLineTwo">Salt</span>
+                  <span data-i18n="mockLabelLineThree">Natural flavor</span>
+                  <span data-i18n="mockLabelLineFour">Sweetener</span>
+                </div>
+                <div class="status-pill">
+                  <span class="dot"></span>
+                  <span data-i18n="mockStatus">Scanning ingredients list...</span>
                 </div>
               </div>
-              <p class="impact-label" data-i18n="mockImpact">Glucose impact</p>
-              <div class="impact-bar"><span></span></div>
-              <div class="impact-caption">
-                <span data-i18n="mockHigh">High</span>
-                <span data-i18n="mockModerate">Moderate</span>
-                <span data-i18n="mockLow">Low</span>
+
+              <div class="mock-result">
+                <div class="grabber"></div>
+                <div class="result-topline">
+                  <span class="checkmark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="m5 12.5 4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                  <div>
+                    <h2 data-i18n="mockVerdict">Great choice</h2>
+                    <p data-i18n="mockVerdictText">
+                      This product is unlikely to cause a large blood sugar spike.
+                    </p>
+                  </div>
+                </div>
+                <p class="impact-label" data-i18n="mockImpact">Glucose impact</p>
+                <div class="impact-bar"><span></span></div>
+                <div class="impact-caption">
+                  <span data-i18n="mockHigh">High</span>
+                  <span data-i18n="mockModerate">Moderate</span>
+                  <span data-i18n="mockLow">Low</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="content-band" aria-labelledby="how-title">
+      <section class="band band-paper" aria-labelledby="how-title">
         <div class="section-inner two-column">
-          <div>
+          <div class="section-head">
             <p class="section-kicker" data-i18n="howKicker">How it works</p>
             <h2 id="how-title" data-i18n="howTitle">A quick check while you shop.</h2>
+            <p class="section-lede" data-i18n="howText">
+              Three steps, about ten seconds, standing in the aisle.
+            </p>
           </div>
           <ol class="steps">
             <li>
@@ -129,39 +172,132 @@
         </div>
       </section>
 
-      <section class="download-band" aria-labelledby="download-title">
+      <section class="band band-deep" aria-labelledby="trust-title">
         <div class="section-inner">
-          <p class="section-kicker" data-i18n="downloadKicker">Download</p>
-          <h2 id="download-title" data-i18n="downloadTitle">Install on your phone.</h2>
+          <div class="section-head is-centered">
+            <p class="section-kicker" data-i18n="trustKicker">Why you can rely on it</p>
+            <h2 id="trust-title" data-i18n="trustTitle">Built to be trusted, not clever.</h2>
+          </div>
 
-          <div class="download-grid">
-            <article class="download-panel" id="ios">
-              <div class="platform-icon" aria-hidden="true">iOS</div>
-              <h3 data-i18n="iosTitle">iPhone</h3>
-              <p data-i18n="iosText">
-                When the iOS version is available, open the App Store or TestFlight
-                link on your iPhone, install the app, then allow camera access.
+          <div class="trust-grid">
+            <article class="trust-card">
+              <span class="trust-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3 4.5 6v5.6c0 4.3 3 8.3 7.5 9.4 4.5-1.1 7.5-5.1 7.5-9.4V6L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <path d="m9 12 2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <h3 data-i18n="trustOneTitle">Nothing leaves your phone</h3>
+              <p data-i18n="trustOneText">
+                Scans are read on your device and then forgotten. No account, no
+                sign-up, no tracking, and nothing sent to a server.
               </p>
-              <a class="text-link disabled" aria-disabled="true" href="#ios" data-i18n="iosLink">
-                iOS download coming soon
-              </a>
             </article>
 
-            <article class="download-panel" id="android">
-              <div class="platform-icon" aria-hidden="true">A</div>
-              <h3 data-i18n="androidTitle">Android</h3>
-              <p data-i18n="androidText">
-                When the Android version is available, open the Play Store or APK
-                link on your phone, install the app, then allow camera access.
+            <article class="trust-card">
+              <span class="trust-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M6 4h9l4 4v12H6V4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <path d="M14.5 4v4.5H19" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <path d="M9 12.5h6M9 16h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <h3 data-i18n="trustTwoTitle">A database checked by hand</h3>
+              <p data-i18n="trustTwoText">
+                Every ingredient and its blood sugar impact is reviewed and
+                curated, so a result is a considered answer rather than a guess.
               </p>
-              <a class="text-link disabled" aria-disabled="true" href="#android" data-i18n="androidLink">
-                Android download coming soon
-              </a>
+            </article>
+
+            <article class="trust-card">
+              <span class="trust-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3.5a8.5 8.5 0 1 1 0 17 8.5 8.5 0 0 1 0-17Z" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="M3.5 12h17M12 3.5c2.2 2.4 3.3 5.3 3.3 8.5s-1.1 6.1-3.3 8.5c-2.2-2.4-3.3-5.3-3.3-8.5S9.8 5.9 12 3.5Z" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+              </span>
+              <h3 data-i18n="trustThreeTitle">Works without a signal</h3>
+              <p data-i18n="trustThreeText">
+                The whole database lives in the app, so it works in the back of a
+                shop, in a basement freezer aisle, or on holiday.
+              </p>
             </article>
           </div>
         </div>
       </section>
+
+      <section class="band band-cream" id="download" aria-labelledby="download-title">
+        <div class="section-inner">
+          <div class="section-head is-centered">
+            <p class="section-kicker" data-i18n="downloadKicker">Download</p>
+            <h2 id="download-title" data-i18n="downloadTitle">Install on your phone.</h2>
+            <p class="section-lede" data-i18n="downloadText">
+              Bloodsugar Guide launches on both iPhone and Android at the same
+              time. Install it, allow camera access, and you are ready to shop.
+            </p>
+          </div>
+
+          <div class="store-buttons is-centered" aria-label="Download options" data-i18n-aria="downloadOptions">
+            <a class="store-button on-light is-pending" aria-disabled="true" href="#download">
+              <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M16.4 12.7c0-2.2 1.8-3.3 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.5-.7 2.9-.7 1.3 0 1.7.7 2.9.7 1.2 0 2-1.1 2.7-2.2.9-1.2 1.2-2.5 1.2-2.5s-2.3-.9-2.3-3.8Zm-2.3-7c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
+              </svg>
+              <span class="store-text">
+                <small data-i18n="storePrefix">Coming soon on the</small>
+                <strong data-i18n="storeApple">App Store</strong>
+              </span>
+            </a>
+
+            <a class="store-button on-light is-pending" aria-disabled="true" href="#download">
+              <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3.6 2.3a1 1 0 0 0-.4.8v17.8a1 1 0 0 0 .4.8l10-9.7-10-9.7Zm11.2 8.5 2.9-2.8-9.8-5.6a1 1 0 0 0-.4-.1l7.3 8.5Zm0 2.4-7.3 8.5c.1 0 .3 0 .4-.1l9.8-5.6-2.9-2.8Zm4.2-3.7L17.2 12l1.8 2.5 2.4-1.4a1.3 1.3 0 0 0 0-2.2l-2.4-1.4Z"/>
+              </svg>
+              <span class="store-text">
+                <small data-i18n="storePrefix">Coming soon on the</small>
+                <strong data-i18n="storeGoogle">Google Play</strong>
+              </span>
+            </a>
+          </div>
+
+          <p class="requirements" data-i18n="requirements">
+            Requires iOS 16 or later, or Android 10 or later, and a working camera.
+          </p>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="section-inner">
+        <div class="footer-top">
+          <a class="brand" href="#top">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3.5c3.6 3.4 5.6 6.2 5.6 8.9A5.6 5.6 0 0 1 12 18a5.6 5.6 0 0 1-5.6-5.6c0-2.7 2-5.5 5.6-8.9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M9.6 12.6c.2 1.3 1.1 2.2 2.4 2.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="brand-name" data-i18n="appName">Bloodsugar Guide</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footerTagline">
+            A calmer way to read a food label.
+          </p>
+        </div>
+
+        <p class="disclaimer">
+          <strong data-i18n="disclaimerTitle">Not medical advice.</strong>
+          <span data-i18n="disclaimerText">
+            Bloodsugar Guide is an informational tool. It does not diagnose or
+            treat anything and it does not replace guidance from your doctor,
+            nurse, or dietitian. Always follow your care team's advice about
+            your diet and your medication.
+          </span>
+        </p>
+
+        <p class="copyright" data-i18n="copyright">
+          © 2026 Bloodsugar Guide
+        </p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>

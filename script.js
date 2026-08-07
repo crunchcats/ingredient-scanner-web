@@ -10,8 +10,12 @@ const translations = {
     heroTitle: "Point at the ingredients list.",
     heroText:
       "Scan a food label and see whether the ingredients include sweeteners that may affect blood sugar.",
-    iosCta: "iOS coming soon",
-    androidCta: "Android coming soon",
+    statusBadge: "Coming soon to iOS and Android",
+    heroNote:
+      "Free to use. No account needed. Works without an internet connection.",
+    storePrefix: "Coming soon on the",
+    storeApple: "App Store",
+    storeGoogle: "Google Play",
     mockBrand: "Bloodsugar Guide",
     mockTitle: "Point at ingredients list",
     mockLabelTitle: "Ingredients",
@@ -29,6 +33,7 @@ const translations = {
     mockLow: "Low",
     howKicker: "How it works",
     howTitle: "A quick check while you shop.",
+    howText: "Three steps, about ten seconds, standing in the aisle.",
     stepOneTitle: "Open the scanner",
     stepOneText:
       "The camera starts right away, so there is no scan button to find.",
@@ -38,16 +43,28 @@ const translations = {
     stepThreeTitle: "Check the result",
     stepThreeText:
       "The app shows a simple glucose impact bar with more detail available.",
+    trustKicker: "Why you can rely on it",
+    trustTitle: "Built to be trusted, not clever.",
+    trustOneTitle: "Nothing leaves your phone",
+    trustOneText:
+      "Scans are read on your device and then forgotten. No account, no sign-up, no tracking, and nothing sent to a server.",
+    trustTwoTitle: "A database checked by hand",
+    trustTwoText:
+      "Every ingredient and its blood sugar impact is reviewed and curated, so a result is a considered answer rather than a guess.",
+    trustThreeTitle: "Works without a signal",
+    trustThreeText:
+      "The whole database lives in the app, so it works in the back of a shop, in a basement freezer aisle, or on holiday.",
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
-    iosTitle: "iPhone",
-    iosText:
-      "When the iOS version is available, open the App Store or TestFlight link on your iPhone, install the app, then allow camera access.",
-    iosLink: "iOS download coming soon",
-    androidTitle: "Android",
-    androidText:
-      "When the Android version is available, open the Play Store or APK link on your phone, install the app, then allow camera access.",
-    androidLink: "Android download coming soon",
+    downloadText:
+      "Bloodsugar Guide launches on both iPhone and Android at the same time. Install it, allow camera access, and you are ready to shop.",
+    requirements:
+      "Requires iOS 16 or later, or Android 10 or later, and a working camera.",
+    footerTagline: "A calmer way to read a food label.",
+    disclaimerTitle: "Not medical advice.",
+    disclaimerText:
+      "Bloodsugar Guide is an informational tool. It does not diagnose or treat anything and it does not replace guidance from your doctor, nurse, or dietitian. Always follow your care team's advice about your diet and your medication.",
+    copyright: "© 2026 Bloodsugar Guide",
   },
   da: {
     metaTitle: "Blodsukker Guiden",
@@ -60,8 +77,12 @@ const translations = {
     heroTitle: "Peg på ingredienslisten.",
     heroText:
       "Scan en varedeklaration og se, om ingredienserne indeholder sødestoffer, der kan påvirke blodsukkeret.",
-    iosCta: "iOS kommer snart",
-    androidCta: "Android kommer snart",
+    statusBadge: "Kommer snart til iOS og Android",
+    heroNote:
+      "Gratis at bruge. Ingen konto nødvendig. Virker uden internetforbindelse.",
+    storePrefix: "Kommer snart i",
+    storeApple: "App Store",
+    storeGoogle: "Google Play",
     mockBrand: "Blodsukker Guiden",
     mockTitle: "Peg på ingredienslisten",
     mockLabelTitle: "Ingredienser",
@@ -79,6 +100,7 @@ const translations = {
     mockLow: "Lav",
     howKicker: "Sådan virker det",
     howTitle: "Et hurtigt tjek, mens du handler.",
+    howText: "Tre trin, cirka ti sekunder, mens du står ved hylden.",
     stepOneTitle: "Åbn scanneren",
     stepOneText:
       "Kameraet starter med det samme, så du skal ikke lede efter en scan-knap.",
@@ -88,16 +110,28 @@ const translations = {
     stepThreeTitle: "Tjek resultatet",
     stepThreeText:
       "Appen viser en enkel blodsukkerbjælke med mulighed for flere detaljer.",
+    trustKicker: "Derfor kan du stole på den",
+    trustTitle: "Bygget til at være til at stole på.",
+    trustOneTitle: "Intet forlader din telefon",
+    trustOneText:
+      "Scanninger læses på din egen telefon og glemmes bagefter. Ingen konto, ingen oprettelse, ingen sporing, og intet sendes til en server.",
+    trustTwoTitle: "En database tjekket i hånden",
+    trustTwoText:
+      "Hver ingrediens og dens påvirkning af blodsukkeret er gennemgået og udvalgt, så et resultat er et gennemtænkt svar og ikke et gæt.",
+    trustThreeTitle: "Virker uden signal",
+    trustThreeText:
+      "Hele databasen ligger i appen, så den virker bagest i butikken, ved frostvarerne i kælderen eller på ferien.",
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
-    iosTitle: "iPhone",
-    iosText:
-      "Når iOS-versionen er klar, åbner du App Store- eller TestFlight-linket på din iPhone, installerer appen og giver adgang til kameraet.",
-    iosLink: "iOS-download kommer snart",
-    androidTitle: "Android",
-    androidText:
-      "Når Android-versionen er klar, åbner du Play Store- eller APK-linket på din telefon, installerer appen og giver adgang til kameraet.",
-    androidLink: "Android-download kommer snart",
+    downloadText:
+      "Blodsukker Guiden udkommer til både iPhone og Android på samme tid. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
+    requirements:
+      "Kræver iOS 16 eller nyere, eller Android 10 eller nyere, samt et fungerende kamera.",
+    footerTagline: "En roligere måde at læse en varedeklaration på.",
+    disclaimerTitle: "Ikke lægelig rådgivning.",
+    disclaimerText:
+      "Blodsukker Guiden er et informationsværktøj. Den stiller ikke diagnoser, behandler ikke, og den erstatter ikke vejledning fra din læge, sygeplejerske eller diætist. Følg altid dit behandlerteams råd om din kost og din medicin.",
+    copyright: "© 2026 Blodsukker Guiden",
   },
 };
 
