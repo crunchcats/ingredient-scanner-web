@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bloodsugar Guide</title>
+    <meta
+      name="description"
+      content="Bloodsugar Guide helps you check food labels for sweeteners that may affect blood sugar."
+    >
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language">
+          <button class="language-option is-active" type="button" data-lang-choice="en">
+            English
+          </button>
+          <button class="language-option" type="button" data-lang-choice="da">
+            Dansk
+          </button>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="appName">Bloodsugar Guide</p>
+          <h1 id="page-title" data-i18n="heroTitle">Point at the ingredients list.</h1>
+          <p class="lede" data-i18n="heroText">
+            Scan a food label and see whether the ingredients include sweeteners
+            that may affect blood sugar.
+          </p>
+          <div class="actions" aria-label="Download options" data-i18n-aria="downloadOptions">
+            <a class="button primary disabled" aria-disabled="true" href="#ios" data-i18n="iosCta">
+              iOS coming soon
+            </a>
+            <a class="button secondary disabled" aria-disabled="true" href="#android" data-i18n="androidCta">
+              Android coming soon
+            </a>
+          </div>
+        </div>
+
+        <div class="phone-stage" aria-label="App preview" data-i18n-aria="appPreview">
+          <div class="phone-mock" aria-hidden="true">
+            <div class="mock-status">
+              <span>9:41</span>
+              <span class="status-icons"></span>
+            </div>
+            <p class="mock-brand" data-i18n="mockBrand">Bloodsugar Guide</p>
+            <p class="mock-title" data-i18n="mockTitle">Point at ingredients list</p>
+
+            <div class="mock-camera">
+              <span class="corner top-left"></span>
+              <span class="corner top-right"></span>
+              <span class="corner bottom-left"></span>
+              <span class="corner bottom-right"></span>
+              <div class="label-card">
+                <p data-i18n="mockLabelTitle">Ingredients</p>
+                <span>Water</span>
+                <span data-i18n="mockLabelLineOne">Oats</span>
+                <span data-i18n="mockLabelLineTwo">Salt</span>
+                <span data-i18n="mockLabelLineThree">Natural flavor</span>
+                <span data-i18n="mockLabelLineFour">Sweetener</span>
+              </div>
+              <div class="status-pill">
+                <span class="dot"></span>
+                <span data-i18n="mockStatus">Scanning ingredients list...</span>
+              </div>
+            </div>
+
+            <div class="mock-result">
+              <div class="grabber"></div>
+              <div class="result-topline">
+                <span class="checkmark">✓</span>
+                <div>
+                  <h2 data-i18n="mockVerdict">Great choice</h2>
+                  <p data-i18n="mockVerdictText">
+                    This product is unlikely to cause a large blood sugar spike.
+                  </p>
+                </div>
+              </div>
+              <p class="impact-label" data-i18n="mockImpact">Glucose impact</p>
+              <div class="impact-bar"><span></span></div>
+              <div class="impact-caption">
+                <span data-i18n="mockHigh">High</span>
+                <span data-i18n="mockModerate">Moderate</span>
+                <span data-i18n="mockLow">Low</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band" aria-labelledby="how-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker" data-i18n="howKicker">How it works</p>
+            <h2 id="how-title" data-i18n="howTitle">A quick check while you shop.</h2>
+          </div>
+          <ol class="steps">
+            <li>
+              <span class="step-number">1</span>
+              <div>
+                <h3 data-i18n="stepOneTitle">Open the scanner</h3>
+                <p data-i18n="stepOneText">
+                  The camera starts right away, so there is no scan button to find.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">2</span>
+              <div>
+                <h3 data-i18n="stepTwoTitle">Point at ingredients</h3>
+                <p data-i18n="stepTwoText">
+                  Hold the label in good light and keep the text inside the frame.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">3</span>
+              <div>
+                <h3 data-i18n="stepThreeTitle">Check the result</h3>
+                <p data-i18n="stepThreeText">
+                  The app shows a simple glucose impact bar with more detail available.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="download-band" aria-labelledby="download-title">
+        <div class="section-inner">
+          <p class="section-kicker" data-i18n="downloadKicker">Download</p>
+          <h2 id="download-title" data-i18n="downloadTitle">Install on your phone.</h2>
+
+          <div class="download-grid">
+            <article class="download-panel" id="ios">
+              <div class="platform-icon" aria-hidden="true">iOS</div>
+              <h3 data-i18n="iosTitle">iPhone</h3>
+              <p data-i18n="iosText">
+                When the iOS version is available, open the App Store or TestFlight
+                link on your iPhone, install the app, then allow camera access.
+              </p>
+              <a class="text-link disabled" aria-disabled="true" href="#ios" data-i18n="iosLink">
+                iOS download coming soon
+              </a>
+            </article>
+
+            <article class="download-panel" id="android">
+              <div class="platform-icon" aria-hidden="true">A</div>
+              <h3 data-i18n="androidTitle">Android</h3>
+              <p data-i18n="androidText">
+                When the Android version is available, open the Play Store or APK
+                link on your phone, install the app, then allow camera access.
+              </p>
+              <a class="text-link disabled" aria-disabled="true" href="#android" data-i18n="androidLink">
+                Android download coming soon
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
