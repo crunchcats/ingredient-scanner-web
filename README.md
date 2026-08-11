@@ -1,6 +1,6 @@
-# Bloodsugar Guide Web
+# Sødeguiden Web
 
-Static single-page site for the Blodsukker Guiden / Bloodsugar Guide app.
+Static single-page site for the Sødeguiden / The Sweetener Guide app.
 
 ## Local preview
 

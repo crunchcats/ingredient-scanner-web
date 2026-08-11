@@ -3,9 +3,9 @@
 
 window.pageTranslations = {
   en: {
-    metaTitle: "Privacy policy — Bloodsugar Guide",
+    metaTitle: "Privacy policy — The Sweetener Guide",
     metaDescription:
-      "What Bloodsugar Guide does and does not collect, in plain language.",
+      "What The Sweetener Guide does and does not collect, in plain language.",
     backToSite: "Back to the front page",
 
     legalTitle: "Privacy policy",
@@ -15,7 +15,7 @@ window.pageTranslations = {
 
     s1Title: "Who is responsible",
     s1Body:
-      "Bloodsugar Guide is provided by GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark. We are the data controller for the limited information described in this policy. You can reach us at blodsukkerguiden@gmail.com.",
+      "The Sweetener Guide is provided by GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark. We are the data controller for the limited information described in this policy. You can reach us at blodsukkerguiden@gmail.com.",
 
     s2Title: "What happens on your phone",
     s2Body:
@@ -83,9 +83,9 @@ window.pageTranslations = {
   },
 
   da: {
-    metaTitle: "Privatlivspolitik — Blodsukker Guiden",
+    metaTitle: "Privatlivspolitik — Sødeguiden",
     metaDescription:
-      "Hvad Blodsukker Guiden indsamler og ikke indsamler, i et almindeligt sprog.",
+      "Hvad Sødeguiden indsamler og ikke indsamler, i et almindeligt sprog.",
     backToSite: "Tilbage til forsiden",
 
     legalTitle: "Privatlivspolitik",
@@ -95,7 +95,7 @@ window.pageTranslations = {
 
     s1Title: "Hvem er ansvarlig",
     s1Body:
-      "Blodsukker Guiden udbydes af GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark. Vi er dataansvarlige for de få oplysninger, der er beskrevet i denne politik. Du kan skrive til os på blodsukkerguiden@gmail.com.",
+      "Sødeguiden udbydes af GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark. Vi er dataansvarlige for de få oplysninger, der er beskrevet i denne politik. Du kan skrive til os på blodsukkerguiden@gmail.com.",
 
     s2Title: "Hvad der sker på din telefon",
     s2Body:

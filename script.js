@@ -1,12 +1,12 @@
 const translations = {
   en: {
-    metaTitle: "Bloodsugar Guide",
+    metaTitle: "The Sweetener Guide",
     metaDescription:
-      "Bloodsugar Guide helps you check food labels for sweeteners that may affect blood sugar.",
+      "The Sweetener Guide helps you check food labels for sweeteners that may affect blood sugar.",
     language: "Language",
     downloadOptions: "Download options",
     appPreview: "App preview",
-    appName: "Bloodsugar Guide",
+    appName: "The Sweetener Guide",
     heroTitle: "Point at the ingredients list.",
     heroText:
       "Scan a food label and see whether the ingredients include sweeteners that may affect blood sugar.",
@@ -16,7 +16,7 @@ const translations = {
     storePrefix: "Coming soon on the",
     storeApple: "App Store",
     storeGoogle: "Google Play",
-    mockBrand: "Bloodsugar Guide",
+    mockBrand: "The Sweetener Guide",
     mockTitle: "Point at ingredients list",
     mockLabelTitle: "Ingredients",
     mockLabelLineOne: "Oats",
@@ -59,24 +59,24 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
-      "Bloodsugar Guide launches on both iPhone and Android at the same time. Install it, allow camera access, and you are ready to shop.",
+      "The Sweetener Guide launches on both iPhone and Android at the same time. Install it, allow camera access, and you are ready to shop.",
     requirements:
       "Requires iOS 16 or later, or Android 10 or later, and a working camera.",
     footerTagline: "A calmer way to read a food label.",
     disclaimerTitle: "Not medical advice.",
     disclaimerText:
-      "Bloodsugar Guide is an informational tool. It does not diagnose or treat anything and it does not replace guidance from your doctor, nurse, or dietitian. Always follow your care team's advice about your diet and your medication.",
-    copyright: "© 2026 Bloodsugar Guide",
+      "The Sweetener Guide is an informational tool. It does not diagnose or treat anything and it does not replace guidance from your doctor, nurse, or dietitian. Always follow your care team's advice about your diet and your medication.",
+    copyright: "© 2026 The Sweetener Guide",
     privacyLink: "Privacy policy",
   },
   da: {
-    metaTitle: "Blodsukker Guiden",
+    metaTitle: "Sødeguiden",
     metaDescription:
-      "Blodsukker Guiden hjælper dig med at tjekke varedeklarationer for sødestoffer, der kan påvirke blodsukkeret.",
+      "Sødeguiden hjælper dig med at tjekke varedeklarationer for sødestoffer, der kan påvirke blodsukkeret.",
     language: "Sprog",
     downloadOptions: "Downloadmuligheder",
     appPreview: "Forhåndsvisning af appen",
-    appName: "Blodsukker Guiden",
+    appName: "Sødeguiden",
     heroTitle: "Peg på ingredienslisten.",
     heroText:
       "Scan en varedeklaration og se, om ingredienserne indeholder sødestoffer, der kan påvirke blodsukkeret.",
@@ -86,7 +86,7 @@ const translations = {
     storePrefix: "Kommer snart i",
     storeApple: "App Store",
     storeGoogle: "Google Play",
-    mockBrand: "Blodsukker Guiden",
+    mockBrand: "Sødeguiden",
     mockTitle: "Peg på ingredienslisten",
     mockLabelTitle: "Ingredienser",
     mockLabelLineOne: "Havre",
@@ -129,14 +129,14 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
-      "Blodsukker Guiden udkommer til både iPhone og Android på samme tid. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
+      "Sødeguiden udkommer til både iPhone og Android på samme tid. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
     requirements:
       "Kræver iOS 16 eller nyere, eller Android 10 eller nyere, samt et fungerende kamera.",
     footerTagline: "En roligere måde at læse en varedeklaration på.",
     disclaimerTitle: "Ikke lægelig rådgivning.",
     disclaimerText:
-      "Blodsukker Guiden er et informationsværktøj. Den stiller ikke diagnoser, behandler ikke, og den erstatter ikke vejledning fra din læge, sygeplejerske eller diætist. Følg altid dit behandlerteams råd om din kost og din medicin.",
-    copyright: "© 2026 Blodsukker Guiden",
+      "Sødeguiden er et informationsværktøj. Den stiller ikke diagnoser, behandler ikke, og den erstatter ikke vejledning fra din læge, sygeplejerske eller diætist. Følg altid dit behandlerteams råd om din kost og din medicin.",
+    copyright: "© 2026 Sødeguiden",
     privacyLink: "Privatlivspolitik",
   },
 };
