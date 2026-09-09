@@ -11,7 +11,7 @@ window.pageTranslations = {
     legalTitle: "Terms of use",
     legalUpdated: "Last updated 9 September 2026",
     legalSummary:
-      "The short version: the app is free, it is an informational tool rather than medical advice, and the label on the packaging is always the final word. The detail is below.",
+      "The short version: ten scans are free and after that it is a subscription, it is an informational tool rather than medical advice, and the label on the packaging is always the final word. The detail is below.",
 
     t1Title: "Who provides the app",
     t1Body:
@@ -24,6 +24,18 @@ window.pageTranslations = {
     t3Title: "What the app is",
     t3Body:
       "The app reads an ingredients list with your camera and shows whether it contains sweeteners that may affect blood sugar, together with the reasoning behind each rating. It is an informational tool, meant to make a food label quicker to read while you are standing in the shop.",
+
+    tSubTitle: "Free scans and the subscription",
+    tSub1:
+      "The first ten scans are free. After that, scanning needs a subscription: 9 kr a month or 79 kr a year. Prices include Danish VAT, and the price shown before you confirm is the price you pay.",
+    tSub2:
+      "A subscription renews automatically until you cancel it, and it is charged to your App Store or Google Play account. You can cancel at any time in that account's settings. Cancelling stops the next renewal, and you keep access until the period you have already paid for ends.",
+    tSub3:
+      "Apple and Google handle the payment. They are the seller of the purchase itself, they hold your payment details rather than us, and refunds are asked of them — from Apple at reportaproblem.apple.com, and from Google through Google Play.",
+    tSub4:
+      "As a consumer in the EU you have a fourteen-day right of withdrawal on a purchase like this. Because the purchase is made with Apple or Google rather than with us, that is where to exercise it. Your mandatory rights under Danish and European consumer law apply whatever these terms say.",
+    tSub5:
+      "A subscription does not create an account with us. It belongs to your App Store or Google Play account, so we never learn who has subscribed, any more than we learn what you scanned.",
 
     t4Title: "It is not medical advice",
     t4Body:
@@ -43,7 +55,7 @@ window.pageTranslations = {
 
     t7Title: "Using the app fairly",
     t7Body:
-      "The app is free, and you may use it for your own personal shopping as much as you like. Please do not try to break into it, disrupt it, copy the ingredient list for a competing product, or present its results as your own service. You are also responsible for using it lawfully and safely — not, for instance, while driving.",
+      "You may use the app for your own personal shopping as much as you like. Please do not try to break into it, disrupt it, copy the ingredient list for a competing product, or present its results as your own service. You are also responsible for using it lawfully and safely — not, for instance, while driving.",
 
     t8Title: "What belongs to whom",
     t8Body:
@@ -55,11 +67,11 @@ window.pageTranslations = {
 
     t10Title: "Availability and changes",
     t10Body:
-      "The app is offered as it is, free of charge. We may change it, update the ingredient list, or stop offering it altogether, and we cannot promise it will always be available or work without fault. Where a change would materially affect how you use the app, we will say so in the app before it takes effect.",
+      "The app is offered as it is. We may change it, update the ingredient list, or stop offering it altogether, and we cannot promise it will always be available or work without fault. If we stopped offering it while your subscription was running, it would not renew again. Where a change would materially affect how you use the app, we will say so in the app before it takes effect.",
 
     t11Title: "Our liability",
     t11Body:
-      "Because the app is free and informational, we are not liable for choices you make on the basis of what it shows, nor for indirect or consequential losses such as lost income or lost data.",
+      "Because the app is an informational tool rather than advice, we are not liable for choices you make on the basis of what it shows, nor for indirect or consequential losses such as lost income or lost data.",
     t11Body2:
       "Nothing here limits liability that cannot be limited under Danish law — including liability for death or personal injury caused by our negligence, for fraud, and under the rules on product liability. If you are a consumer, your mandatory rights under Danish consumer law stand regardless of what these terms say.",
 
@@ -90,7 +102,7 @@ window.pageTranslations = {
     legalTitle: "Brugsvilkår",
     legalUpdated: "Senest opdateret 9. september 2026",
     legalSummary:
-      "Kort fortalt: appen er gratis, den er et informationsværktøj og ikke lægelig rådgivning, og varedeklarationen på pakken har altid det sidste ord. Detaljerne står nedenfor.",
+      "Kort fortalt: ti scanninger er gratis, og derefter er det et abonnement. Appen er et informationsværktøj og ikke lægelig rådgivning, og varedeklarationen på pakken har altid det sidste ord. Detaljerne står nedenfor.",
 
     t1Title: "Hvem står bag appen",
     t1Body:
@@ -103,6 +115,18 @@ window.pageTranslations = {
     t3Title: "Hvad appen er",
     t3Body:
       "Appen læser en ingrediensliste med dit kamera og viser, om den indeholder sødestoffer, der kan påvirke blodsukkeret, sammen med begrundelsen for hver vurdering. Den er et informationsværktøj, der skal gøre en varedeklaration hurtigere at læse, mens du står i butikken.",
+
+    tSubTitle: "Gratis scanninger og abonnementet",
+    tSub1:
+      "De første ti scanninger er gratis. Derefter kræver det et abonnement at scanne videre: 9 kr. om måneden eller 79 kr. om året. Priserne er inklusive dansk moms, og den pris, du får vist, før du bekræfter, er den pris, du betaler.",
+    tSub2:
+      "Et abonnement fornyes automatisk, indtil du opsiger det, og det trækkes fra din App Store- eller Google Play-konto. Du kan opsige når som helst i indstillingerne for den konto. En opsigelse stopper den næste fornyelse, og du beholder adgangen, indtil den periode, du allerede har betalt for, udløber.",
+    tSub3:
+      "Apple og Google står for betalingen. De er sælger af selve købet, det er dem og ikke os, der har dine betalingsoplysninger, og refusion skal søges hos dem — hos Apple på reportaproblem.apple.com og hos Google via Google Play.",
+    tSub4:
+      "Som forbruger i EU har du fjorten dages fortrydelsesret ved et køb som dette. Fordi købet indgås med Apple eller Google og ikke med os, er det dér, du gør den gældende. Dine ufravigelige rettigheder efter dansk og europæisk forbrugerlovgivning gælder uanset hvad der står i disse vilkår.",
+    tSub5:
+      "Et abonnement opretter ikke en konto hos os. Det ligger på din App Store- eller Google Play-konto, så vi får aldrig at vide, hvem der abonnerer — lige så lidt som vi får at vide, hvad du har scannet.",
 
     t4Title: "Det er ikke lægelig rådgivning",
     t4Body:
@@ -122,7 +146,7 @@ window.pageTranslations = {
 
     t7Title: "Fair brug af appen",
     t7Body:
-      "Appen er gratis, og du må bruge den til dine egne indkøb, så meget du vil. Lad være med at forsøge at bryde ind i den, forstyrre den, kopiere ingredienslisten til et konkurrerende produkt eller udgive dens resultater for din egen tjeneste. Du er også selv ansvarlig for at bruge den lovligt og sikkert — altså for eksempel ikke, mens du kører bil.",
+      "Du må bruge appen til dine egne indkøb, så meget du vil. Lad være med at forsøge at bryde ind i den, forstyrre den, kopiere ingredienslisten til et konkurrerende produkt eller udgive dens resultater for din egen tjeneste. Du er også selv ansvarlig for at bruge den lovligt og sikkert — altså for eksempel ikke, mens du kører bil.",
 
     t8Title: "Hvem ejer hvad",
     t8Body:
@@ -134,11 +158,11 @@ window.pageTranslations = {
 
     t10Title: "Tilgængelighed og ændringer",
     t10Body:
-      "Appen stilles til rådighed, som den er, og gratis. Vi kan ændre den, opdatere ingredienslisten eller helt holde op med at udbyde den, og vi kan ikke love, at den altid er tilgængelig eller virker fejlfrit. Hvis en ændring får væsentlig betydning for din brug af appen, siger vi det i appen, før den træder i kraft.",
+      "Appen stilles til rådighed, som den er. Vi kan ændre den, opdatere ingredienslisten eller helt holde op med at udbyde den, og vi kan ikke love, at den altid er tilgængelig eller virker fejlfrit. Holder vi op med at udbyde den, mens du har et abonnement, bliver det ikke fornyet igen. Hvis en ændring får væsentlig betydning for din brug af appen, siger vi det i appen, før den træder i kraft.",
 
     t11Title: "Vores ansvar",
     t11Body:
-      "Fordi appen er gratis og oplysende, er vi ikke ansvarlige for de valg, du træffer på baggrund af det, den viser, og heller ikke for indirekte tab eller følgeskader som mistet indtjening eller tabte data.",
+      "Fordi appen er et informationsværktøj og ikke rådgivning, er vi ikke ansvarlige for de valg, du træffer på baggrund af det, den viser, og heller ikke for indirekte tab eller følgeskader som mistet indtjening eller tabte data.",
     t11Body2:
       "Intet her begrænser et ansvar, der ikke kan begrænses efter dansk ret — herunder ansvar for død eller personskade som følge af vores uagtsomhed, for svig og efter reglerne om produktansvar. Er du forbruger, gælder dine ufravigelige rettigheder efter dansk forbrugerlovgivning uanset hvad der står i disse vilkår.",
 

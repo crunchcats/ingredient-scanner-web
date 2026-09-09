@@ -12,7 +12,7 @@ const translations = {
       "Scan a food label and see whether the ingredients include sweeteners that may affect blood sugar.",
     statusBadge: "Coming soon to iOS and Android",
     heroNote:
-      "Free to use. No account needed. Works without an internet connection.",
+      "Ten scans free. No account needed. Works without an internet connection.",
     storePrefix: "Coming soon on the",
     storeApple: "App Store",
     storeGoogle: "Google Play",
@@ -83,7 +83,7 @@ const translations = {
       "Scan en varedeklaration og se, om ingredienserne indeholder sødestoffer, der kan påvirke blodsukkeret.",
     statusBadge: "Kommer snart til iOS og Android",
     heroNote:
-      "Gratis at bruge. Ingen konto nødvendig. Virker uden internetforbindelse.",
+      "Ti scanninger gratis. Ingen konto nødvendig. Virker uden internetforbindelse.",
     storePrefix: "Kommer snart i",
     storeApple: "App Store",
     storeGoogle: "Google Play",
