@@ -876,6 +876,13 @@ h3 {
   font-size: var(--text-sm);
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-3);
+}
+
 .footer-link {
   color: var(--on-dark-muted);
   font-size: var(--text-sm);
@@ -1006,6 +1013,17 @@ h3 {
 
 .legal li {
   margin-bottom: var(--s-2);
+}
+
+.legal-link {
+  color: var(--green-500);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-link:hover {
+  color: var(--green-700);
 }
 
 /* ==========================================================================

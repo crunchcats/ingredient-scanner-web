@@ -68,6 +68,7 @@ const translations = {
       "The Sweetener Guide is an informational tool. It does not diagnose or treat anything and it does not replace guidance from your doctor, nurse, or dietitian. Always follow your care team's advice about your diet and your medication.",
     copyright: "© 2026 The Sweetener Guide",
     privacyLink: "Privacy policy",
+    termsLink: "Terms of use",
   },
   da: {
     metaTitle: "Sødeguiden",
@@ -138,11 +139,13 @@ const translations = {
       "Sødeguiden er et informationsværktøj. Den stiller ikke diagnoser, behandler ikke, og den erstatter ikke vejledning fra din læge, sygeplejerske eller diætist. Følg altid dit behandlerteams råd om din kost og din medicin.",
     copyright: "© 2026 Sødeguiden",
     privacyLink: "Privatlivspolitik",
+    termsLink: "Brugsvilkår",
   },
 };
 
-// Pages with their own copy (privacy.html) define window.pageTranslations
-// before this file loads. Merge it in so one language switcher serves both.
+// Pages with their own copy (privacy.html, terms.html) define
+// window.pageTranslations before this file loads. Merge it in so one language
+// switcher serves both.
 if (window.pageTranslations) {
   Object.keys(translations).forEach((language) => {
     Object.assign(translations[language], window.pageTranslations[language]);
