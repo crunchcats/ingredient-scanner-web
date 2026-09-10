@@ -15,7 +15,7 @@ window.pageTranslations = {
 
     s1Title: "Who is responsible",
     s1Body:
-      "The Sweetener Guide is provided by GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark. We are the data controller for the limited information described in this policy. You can reach us at blodsukkerguiden@gmail.com.",
+      "The Sweetener Guide is provided by GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark. We are the data controller for the limited information described in this policy. You can reach us at hello@gfconsulting.dk.",
 
     s2Title: "What happens on your phone",
     s2Body:
@@ -67,7 +67,7 @@ window.pageTranslations = {
     s8Body:
       "You have the right to ask for access to, correction of, or deletion of personal data we hold about you, and to object to how we process it.",
     s8Body2:
-      "In practice we hold nothing that can be linked to an individual, which is deliberate. That also means we cannot find data belonging to a particular person, because there is no identifier to search by and no store to search in. You are welcome to contact us at blodsukkerguiden@gmail.com regardless. If you are unhappy with how we handle it, you can complain to Datatilsynet, the Danish Data Protection Agency, at datatilsynet.dk.",
+      "In practice we hold nothing that can be linked to an individual, which is deliberate. That also means we cannot find data belonging to a particular person, because there is no identifier to search by and no store to search in. You are welcome to contact us at hello@gfconsulting.dk regardless. If you are unhappy with how we handle it, you can complain to Datatilsynet, the Danish Data Protection Agency, at datatilsynet.dk.",
 
     s9Title: "Children",
     s9Body:
@@ -79,7 +79,7 @@ window.pageTranslations = {
 
     s11Title: "Contact",
     s11Body:
-      "Questions about this policy: blodsukkerguiden@gmail.com. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark.",
+      "Questions about this policy: hello@gfconsulting.dk. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark.",
   },
 
   da: {
@@ -95,7 +95,7 @@ window.pageTranslations = {
 
     s1Title: "Hvem er ansvarlig",
     s1Body:
-      "Sødeguiden udbydes af GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark. Vi er dataansvarlige for de få oplysninger, der er beskrevet i denne politik. Du kan skrive til os på blodsukkerguiden@gmail.com.",
+      "Sødeguiden udbydes af GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark. Vi er dataansvarlige for de få oplysninger, der er beskrevet i denne politik. Du kan skrive til os på hello@gfconsulting.dk.",
 
     s2Title: "Hvad der sker på din telefon",
     s2Body:
@@ -148,7 +148,7 @@ window.pageTranslations = {
     s8Body:
       "Du har ret til at bede om indsigt i, rettelse af eller sletning af personoplysninger, vi har om dig, og til at gøre indsigelse mod vores behandling.",
     s8Body2:
-      "I praksis har vi intet, der kan knyttes til en enkelt person, og det er med vilje. Det betyder samtidig, at vi ikke kan finde oplysninger om en bestemt person, for der er hverken en identifikator at søge på eller et sted at søge. Du er velkommen til at skrive til os på blodsukkerguiden@gmail.com alligevel. Er du utilfreds med vores håndtering, kan du klage til Datatilsynet på datatilsynet.dk.",
+      "I praksis har vi intet, der kan knyttes til en enkelt person, og det er med vilje. Det betyder samtidig, at vi ikke kan finde oplysninger om en bestemt person, for der er hverken en identifikator at søge på eller et sted at søge. Du er velkommen til at skrive til os på hello@gfconsulting.dk alligevel. Er du utilfreds med vores håndtering, kan du klage til Datatilsynet på datatilsynet.dk.",
 
     s9Title: "Børn",
     s9Body:
@@ -160,6 +160,6 @@ window.pageTranslations = {
 
     s11Title: "Kontakt",
     s11Body:
-      "Spørgsmål til denne politik: blodsukkerguiden@gmail.com. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark.",
+      "Spørgsmål til denne politik: hello@gfconsulting.dk. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark.",
   },
 };

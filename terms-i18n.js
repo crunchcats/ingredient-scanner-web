@@ -15,7 +15,7 @@ window.pageTranslations = {
 
     t1Title: "Who provides the app",
     t1Body:
-      "The Sweetener Guide is provided by GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark. These terms cover both the app and this website. You can reach us at blodsukkerguiden@gmail.com.",
+      "The Sweetener Guide is provided by GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark. These terms cover both the app and this website. You can reach us at hello@gfconsulting.dk.",
 
     t2Title: "Agreeing to these terms",
     t2Body:
@@ -90,7 +90,7 @@ window.pageTranslations = {
 
     t15Title: "Contact",
     t15Body:
-      "Questions about these terms: blodsukkerguiden@gmail.com. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark.",
+      "Questions about these terms: hello@gfconsulting.dk. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Denmark.",
   },
 
   da: {
@@ -106,7 +106,7 @@ window.pageTranslations = {
 
     t1Title: "Hvem står bag appen",
     t1Body:
-      "Sødeguiden udbydes af GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark. Disse vilkår gælder både appen og dette websted. Du kan skrive til os på blodsukkerguiden@gmail.com.",
+      "Sødeguiden udbydes af GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark. Disse vilkår gælder både appen og dette websted. Du kan skrive til os på hello@gfconsulting.dk.",
 
     t2Title: "Accept af vilkårene",
     t2Body:
@@ -181,6 +181,6 @@ window.pageTranslations = {
 
     t15Title: "Kontakt",
     t15Body:
-      "Spørgsmål til disse vilkår: blodsukkerguiden@gmail.com. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark.",
+      "Spørgsmål til disse vilkår: hello@gfconsulting.dk. GF Consulting ApS, Lykkesholms Allé 11, 1902 Frederiksberg C, Danmark.",
   },
 };
