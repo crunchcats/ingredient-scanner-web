@@ -27,7 +27,7 @@ window.pageTranslations = {
 
     tSubTitle: "Free scans and the subscription",
     tSub1:
-      "The first ten scans are free. After that, scanning needs a subscription: 9 kr a month or 79 kr a year. Prices include Danish VAT, and the price shown before you confirm is the price you pay.",
+      "The first ten scans are free. After that, scanning needs a subscription, monthly or yearly. In Denmark it costs 9 kr a month or 79 kr a year; elsewhere the price is set in your local currency and shown in the App Store or Google Play. Prices include any VAT or sales tax that applies where you live, and the price shown before you confirm is the price you pay.",
     tSub2:
       "A subscription renews automatically until you cancel it, and it is charged to your App Store or Google Play account. You can cancel at any time in that account's settings. Cancelling stops the next renewal, and you keep access until the period you have already paid for ends.",
     tSub3:
@@ -121,7 +121,7 @@ window.pageTranslations = {
 
     tSubTitle: "Gratis scanninger og abonnementet",
     tSub1:
-      "De første ti scanninger er gratis. Derefter kræver det et abonnement at scanne videre: 9 kr. om måneden eller 79 kr. om året. Priserne er inklusive dansk moms, og den pris, du får vist, før du bekræfter, er den pris, du betaler.",
+      "De første ti scanninger er gratis. Derefter kræver det et abonnement at scanne videre, månedligt eller årligt. I Danmark koster det 9 kr. om måneden eller 79 kr. om året; i andre lande er prisen sat i den lokale valuta og vises i App Store eller Google Play. Priserne er inklusive den moms eller afgift, der gælder, hvor du bor, og den pris, du får vist, før du bekræfter, er den pris, du betaler.",
     tSub2:
       "Et abonnement fornyes automatisk, indtil du opsiger det, og det trækkes fra din App Store- eller Google Play-konto. Du kan opsige når som helst i indstillingerne for den konto. En opsigelse stopper den næste fornyelse, og du beholder adgangen, indtil den periode, du allerede har betalt for, udløber.",
     tSub3:
