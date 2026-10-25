@@ -9,7 +9,7 @@ window.pageTranslations = {
     backToSite: "Back to the front page",
 
     legalTitle: "Terms of use",
-    legalUpdated: "Last updated 9 September 2026",
+    legalUpdated: "Last updated 25 October 2026",
     legalSummary:
       "The short version: ten scans are free and after that it is a subscription, it is an informational tool rather than medical advice, and the label on the packaging is always the final word. The detail is below.",
 
@@ -64,6 +64,9 @@ window.pageTranslations = {
     t9Title: "The app stores",
     t9Body:
       "The app is distributed through Apple's App Store and Google Play, and their own terms apply alongside these. Apple and Google are not parties to this agreement and are not responsible for the app or its content. Any question about the app itself belongs with us.",
+    t9Body2:
+      "On iPhone, your licence to use the app is Apple's standard licence agreement for apps from the App Store. These terms add to it; they do not replace it.",
+    t9Link: "Read Apple's licence agreement",
 
     t10Title: "Availability and changes",
     t10Body:
@@ -77,7 +80,7 @@ window.pageTranslations = {
 
     t12Title: "Privacy",
     t12Body:
-      "The photo never leaves your phone, and we never learn what you scanned. How that works, and the little the app does send, is described in our privacy policy.",
+      "The photo never leaves your phone unless you send it to us yourself as feedback, and we never learn what you scanned. How that works, and the little the app does send, is described in our privacy policy.",
     t12Link: "Read the privacy policy",
 
     t13Title: "Changes to these terms",
@@ -100,7 +103,7 @@ window.pageTranslations = {
     backToSite: "Tilbage til forsiden",
 
     legalTitle: "Brugsvilkår",
-    legalUpdated: "Senest opdateret 9. september 2026",
+    legalUpdated: "Senest opdateret 25. oktober 2026",
     legalSummary:
       "Kort fortalt: ti scanninger er gratis, og derefter er det et abonnement. Appen er et informationsværktøj og ikke lægelig rådgivning, og varedeklarationen på pakken har altid det sidste ord. Detaljerne står nedenfor.",
 
@@ -155,6 +158,9 @@ window.pageTranslations = {
     t9Title: "App-butikkerne",
     t9Body:
       "Appen distribueres gennem Apples App Store og Google Play, og deres egne vilkår gælder ved siden af disse. Apple og Google er ikke part i denne aftale og er ikke ansvarlige for appen eller dens indhold. Spørgsmål til selve appen skal til os.",
+    t9Body2:
+      "På iPhone er din licens til at bruge appen Apples standardlicensaftale for apps fra App Store. Disse vilkår lægges oven i den; de erstatter den ikke.",
+    t9Link: "Læs Apples licensaftale",
 
     t10Title: "Tilgængelighed og ændringer",
     t10Body:
@@ -168,7 +174,7 @@ window.pageTranslations = {
 
     t12Title: "Privatliv",
     t12Body:
-      "Billedet forlader aldrig din telefon, og vi får aldrig at vide, hvad du har scannet. Hvordan det hænger sammen, og det lidt appen sender, står i vores privatlivspolitik.",
+      "Billedet forlader aldrig din telefon, medmindre du selv sender det til os som feedback, og vi får aldrig at vide, hvad du har scannet. Hvordan det hænger sammen, og det lidt appen sender, står i vores privatlivspolitik.",
     t12Link: "Læs privatlivspolitikken",
 
     t13Title: "Ændringer i disse vilkår",
