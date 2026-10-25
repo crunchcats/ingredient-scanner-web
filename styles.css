@@ -25,11 +25,6 @@
   --on-dark-muted: rgba(255, 255, 255, 0.76);
   --on-dark-faint: rgba(255, 255, 255, 0.58);
 
-  /* Semantic — used by the impact scale, kept in one place. */
-  --impact-high: #c62f2f;
-  --impact-mid: #d9a516;
-  --impact-low: #0b7a5b;
-
   /* Lines & surfaces */
   --line: rgba(27, 67, 50, 0.14);
   --line-strong: rgba(27, 67, 50, 0.24);
@@ -459,263 +454,107 @@ h3 {
 }
 
 /* ==========================================================================
-   Phone mock
+   Gallery — the App Store frames, one at a time, with their neighbours
+   peeking in at the sides
    ========================================================================== */
 
-.phone-stage {
-  display: flex;
-  justify-content: center;
+.gallery {
+  --frame-w: 300px;
+  min-width: 0;
 }
 
-.phone-mock {
+/* Positioned, so the frames' offsetLeft — which script.js scrolls by — is measured
+   from the track itself. */
+.gallery-track {
   position: relative;
-  width: min(370px, 100%);
-  min-height: 720px;
-  padding: var(--s-5) var(--s-4) 0;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: var(--r-2xl);
-  color: var(--on-dark);
-  background:
-    radial-gradient(circle at 22% 18%, rgba(82, 183, 136, 0.26), transparent 32%),
-    linear-gradient(180deg, #063526, #00503d 48%, #063526);
-  box-shadow: var(--shadow-lg);
-  overflow: hidden;
-}
-
-.mock-status {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: var(--s-6);
-  padding: 0 var(--s-2);
-  font-size: var(--text-sm);
-  font-weight: 600;
-}
-
-.status-icons {
-  width: 62px;
-  height: 12px;
-  border-radius: var(--r-full);
-  background:
-    linear-gradient(90deg, white 0 12px, transparent 12px 17px, white 17px 29px, transparent 29px 35px, white 35px 47px, transparent 47px),
-    linear-gradient(90deg, transparent 0 50px, white 50px 62px);
-  opacity: 0.9;
-}
-
-.mock-brand {
-  margin-bottom: var(--s-4);
-  color: var(--on-dark-muted);
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.mock-title {
-  margin-bottom: var(--s-5);
-  color: var(--on-dark);
-  font-size: 1.75rem;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  text-align: center;
-}
-
-.mock-camera {
-  position: relative;
-  height: 400px;
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  border-radius: var(--r-lg);
-  background:
-    linear-gradient(116deg, rgba(101, 134, 84, 0.5), transparent 38%),
-    linear-gradient(22deg, #91745a, #ddcfb4 52%, #8c765f);
-  overflow: hidden;
-}
-
-.corner {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-color: var(--on-dark);
-  border-style: solid;
-  z-index: 2;
-}
-
-.top-left {
-  top: var(--s-4);
-  left: var(--s-4);
-  border-width: 4px 0 0 4px;
-  border-radius: var(--r-sm) 0 0;
-}
-
-.top-right {
-  top: var(--s-4);
-  right: var(--s-4);
-  border-width: 4px 4px 0 0;
-  border-radius: 0 var(--r-sm) 0 0;
-}
-
-.bottom-left {
-  bottom: var(--s-4);
-  left: var(--s-4);
-  border-width: 0 0 4px 4px;
-  border-radius: 0 0 0 var(--r-sm);
-}
-
-.bottom-right {
-  right: var(--s-4);
-  bottom: var(--s-4);
-  border-width: 0 4px 4px 0;
-  border-radius: 0 0 var(--r-sm);
-}
-
-.label-card {
-  position: absolute;
-  top: 80px;
-  right: -18px;
-  width: 240px;
-  padding: var(--s-5) var(--s-5) var(--s-6);
-  color: var(--ink);
-  border-radius: var(--r-sm);
-  background: rgba(255, 253, 248, 0.94);
-  box-shadow: 0 var(--s-4) var(--s-6) rgba(61, 42, 25, 0.2);
-  transform: rotate(7deg);
-}
-
-.label-card p {
-  margin-bottom: var(--s-3);
-  font-size: var(--text-xl);
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.01em;
-}
-
-.label-card span {
-  display: block;
-  padding: var(--s-2) 0;
-  border-top: 1px solid rgba(22, 37, 31, 0.2);
-  font-size: var(--text-base);
-  font-weight: 500;
-}
-
-.status-pill {
-  position: absolute;
-  left: 50%;
-  bottom: var(--s-5);
-  display: inline-flex;
-  align-items: center;
-  gap: var(--s-2);
-  min-height: 44px;
-  max-width: calc(100% - var(--s-6));
-  padding: 0 var(--s-4);
-  color: var(--on-dark);
-  border-radius: var(--r-full);
-  background: rgba(13, 56, 44, 0.92);
-  font-size: var(--text-sm);
-  transform: translateX(-50%);
-  white-space: nowrap;
-}
-
-.dot {
-  width: 9px;
-  height: 9px;
-  flex: 0 0 auto;
-  border-radius: 50%;
-  background: var(--green-300);
-}
-
-.mock-result {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: var(--s-3) var(--s-5) var(--s-5);
-  color: var(--ink);
-  border-radius: var(--r-xl) var(--r-xl) 0 0;
-  background: rgba(255, 253, 248, 0.98);
-}
-
-.grabber {
-  width: 40px;
-  height: 4px;
-  margin: 0 auto var(--s-5);
-  border-radius: var(--r-full);
-  background: rgba(22, 37, 31, 0.16);
-}
-
-.result-topline {
-  display: grid;
-  grid-template-columns: 56px 1fr;
   gap: var(--s-4);
-  align-items: center;
-  margin-bottom: var(--s-5);
+  padding: var(--s-2) calc(50% - var(--frame-w) / 2) var(--s-5);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
 }
 
-.checkmark {
-  display: inline-flex;
-  width: 56px;
-  height: 56px;
+.gallery-track::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-frame {
+  flex: 0 0 var(--frame-w);
+  width: var(--frame-w);
+  height: auto;
+  border: 1px solid var(--line-dark);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-lg);
+  scroll-snap-align: center;
+}
+
+.gallery-controls {
+  display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--impact-low);
+  gap: var(--s-4);
+}
+
+.gallery-arrow {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-dark);
+  border: 1px solid var(--line-dark);
   border-radius: 50%;
-  background: var(--mint-100);
+  background: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
-.checkmark svg {
-  width: 28px;
-  height: 28px;
+.gallery-arrow:hover {
+  background: rgba(255, 255, 255, 0.14);
 }
 
-.result-topline h2 {
-  margin-bottom: var(--s-1);
-  color: var(--green-700);
-  font-size: 1.5rem;
-  line-height: 1.1;
+.gallery-arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
 
-.result-topline p {
-  margin-bottom: 0;
-  color: var(--muted);
-  font-size: var(--text-sm);
-  line-height: 1.4;
+.gallery-arrow svg {
+  width: 22px;
+  height: 22px;
 }
 
-.impact-label {
-  margin-bottom: var(--s-2);
-  color: var(--green-700);
-  font-size: var(--text-sm);
-  font-weight: 600;
+.gallery-dots {
+  display: flex;
+  gap: var(--s-2);
 }
 
-.impact-bar {
+/* A 24px target around an 8px dot. */
+.gallery-dot {
   position: relative;
-  height: 8px;
-  border-radius: var(--r-full);
-  background: linear-gradient(90deg, var(--impact-high), var(--impact-mid) 48%, var(--impact-low));
-}
-
-.impact-bar span {
-  position: absolute;
-  top: 50%;
-  right: 16%;
   width: 24px;
   height: 24px;
-  border: 5px solid var(--paper);
-  border-radius: 50%;
-  background: var(--impact-low);
-  box-shadow: var(--shadow-sm);
-  transform: translateY(-50%);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
 }
 
-.impact-caption {
-  display: flex;
-  justify-content: space-between;
-  margin-top: var(--s-3);
-  color: var(--muted);
-  font-size: 0.8125rem;
-  font-weight: 500;
+.gallery-dot::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border-radius: 50%;
+  background: var(--on-dark-faint);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.gallery-dot.is-active::after {
+  background: var(--green-300);
+  transform: scale(1.35);
 }
 
 /* ==========================================================================
@@ -1078,18 +917,8 @@ h3 {
     padding: var(--s-7) var(--s-5);
   }
 
-  .phone-mock {
-    min-height: 660px;
-    border-radius: var(--r-xl);
-  }
-
-  .mock-camera {
-    height: 360px;
-  }
-
-  .label-card {
-    right: -32px;
-    width: 226px;
+  .gallery {
+    --frame-w: 260px;
   }
 
   .footer-top {

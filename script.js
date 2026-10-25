@@ -2,35 +2,35 @@ const translations = {
   en: {
     metaTitle: "The Sweetener Guide",
     metaDescription:
-      "The Sweetener Guide helps you check food labels for sweeteners that may affect blood sugar.",
+      "The Sweetener Guide finds the sweeteners and sugars in a food label's ingredient list, so you can decide for yourself.",
     language: "Language",
     downloadOptions: "Download options",
     appPreview: "App preview",
     appName: "The Sweetener Guide",
     heroTitle: "Point at the ingredients list.",
     heroText:
-      "Scan a food label and see whether the ingredients include sweeteners that may affect blood sugar.",
-    statusBadge: "Coming soon to iOS and Android",
+      "Scan a food label and see which sweeteners and sugars are in it. The app shows what it found; the choice is yours.",
+    statusBadge: "Coming soon to iPhone",
     heroNote:
       "Ten scans free. No account needed. Works without an internet connection.",
     storePrefix: "Coming soon on the",
+    storePrefixLater: "Coming later to",
     storeApple: "App Store",
     storeGoogle: "Google Play",
-    mockBrand: "The Sweetener Guide",
-    mockTitle: "Point at ingredients list",
-    mockLabelTitle: "Ingredients",
-    mockLabelLineOne: "Oats",
-    mockLabelLineTwo: "Salt",
-    mockLabelLineThree: "Natural flavor",
-    mockLabelLineFour: "Sweetener",
-    mockStatus: "Scanning ingredients list...",
-    mockVerdict: "Great choice",
-    mockVerdictText:
-      "This product is unlikely to cause a large blood sugar spike.",
-    mockImpact: "Glucose impact",
-    mockHigh: "High",
-    mockModerate: "Moderate",
-    mockLow: "Low",
+    galleryPrevious: "Previous screen",
+    galleryNext: "Next screen",
+    frameAlt1:
+      "What sweetens it? Scan and see. The scanner on a yoghurt label, with acesulfame K and aspartame found.",
+    frameAlt2:
+      "Just point. It does the rest. No barcode, no button, any product.",
+    frameAlt3:
+      "Spots the hidden sugar too. The details screen marks aspartame and glucose syrup on the label.",
+    frameAlt4:
+      "You get the facts. You decide. A result telling you to check carbohydrates and sugars on the pack.",
+    frameAlt5:
+      "No account. Nothing kept about you. No login, no ads, no data collected.",
+    frameAlt6:
+      "Try it on your own groceries. The first 10 scans are free.",
     howKicker: "How it works",
     howTitle: "A quick check while you shop.",
     howText: "Three steps, about ten seconds, standing in the aisle.",
@@ -42,12 +42,12 @@ const translations = {
       "Hold the label in good light and keep the text inside the frame.",
     stepThreeTitle: "Check the result",
     stepThreeText:
-      "The app shows a simple glucose impact bar with more detail available.",
+      "The app shows what it found and a simple glucose impact bar, with the details behind it.",
     trustKicker: "Why you can rely on it",
     trustTitle: "Built to be trusted, not clever.",
     trustOneTitle: "We never see what you scanned",
     trustOneText:
-      "The photo stays on your phone and your phone reads the text itself. There is no server for it to be sent to — the app only ever downloads the list, and never uploads anything.",
+      "The photo stays on your phone and your phone reads the text itself. There is no server for it to be sent to — the app only ever downloads the list. The photo leaves your phone only if you email it to us as feedback yourself.",
     trustTwoTitle: "Written by people who live with it",
     trustTwoText:
       "The list is put together by Danes with type 2 diabetes. The app always shows why an ingredient got its rating, so you can weigh up the reasoning yourself.",
@@ -59,9 +59,8 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
-      "The Sweetener Guide launches on both iPhone and Android at the same time. Install it, allow camera access, and you are ready to shop.",
-    requirements:
-      "Requires iOS 16 or later, or Android 10 or later, and a working camera.",
+      "The Sweetener Guide comes to iPhone first, with Android to follow. Install it, allow camera access, and you are ready to shop.",
+    requirements: "Requires an iPhone with iOS 17 or later.",
     footerTagline: "A calmer way to read a food label.",
     disclaimerTitle: "Not medical advice.",
     disclaimerText:
@@ -73,35 +72,35 @@ const translations = {
   da: {
     metaTitle: "Sødeguiden",
     metaDescription:
-      "Sødeguiden hjælper dig med at tjekke varedeklarationer for sødestoffer, der kan påvirke blodsukkeret.",
+      "Sødeguiden finder sødestoffer og sukkerarter i en varedeklarations ingrediensliste, så du selv kan vælge.",
     language: "Sprog",
     downloadOptions: "Downloadmuligheder",
     appPreview: "Forhåndsvisning af appen",
     appName: "Sødeguiden",
     heroTitle: "Peg på ingredienslisten.",
     heroText:
-      "Scan en varedeklaration og se, om ingredienserne indeholder sødestoffer, der kan påvirke blodsukkeret.",
-    statusBadge: "Kommer snart til iOS og Android",
+      "Scan en varedeklaration og se, hvilke sødestoffer og sukkerarter den indeholder. Appen viser, hvad den fandt; valget er dit.",
+    statusBadge: "Kommer snart til iPhone",
     heroNote:
       "Ti scanninger gratis. Ingen konto nødvendig. Virker uden internetforbindelse.",
     storePrefix: "Kommer snart i",
+    storePrefixLater: "Kommer senere i",
     storeApple: "App Store",
     storeGoogle: "Google Play",
-    mockBrand: "Sødeguiden",
-    mockTitle: "Peg på ingredienslisten",
-    mockLabelTitle: "Ingredienser",
-    mockLabelLineOne: "Havre",
-    mockLabelLineTwo: "Salt",
-    mockLabelLineThree: "Naturlig aroma",
-    mockLabelLineFour: "Sødestof",
-    mockStatus: "Scanner ingredienslisten...",
-    mockVerdict: "Godt valg",
-    mockVerdictText:
-      "Produktet giver sandsynligvis ikke en stor stigning i blodsukkeret.",
-    mockImpact: "Påvirkning af blodsukker",
-    mockHigh: "Høj",
-    mockModerate: "Moderat",
-    mockLow: "Lav",
+    galleryPrevious: "Forrige skærm",
+    galleryNext: "Næste skærm",
+    frameAlt1:
+      "Hvad er den sødet med? Scan og se. Scanneren på en yoghurt, hvor acesulfam K og aspartam er fundet.",
+    frameAlt2:
+      "Bare peg. Den klarer resten. Ingen stregkode, ingen knap, alle slags varer.",
+    frameAlt3:
+      "Fanger også det skjulte sukker. Detaljeskærmen markerer aspartam og glukosesirup på etiketten.",
+    frameAlt4:
+      "Du får overblikket. Du vælger. Et resultat, der beder dig tjekke kulhydrat og sukkerarter på pakken.",
+    frameAlt5:
+      "Ingen konto. Intet gemt om dig. Intet login, ingen reklamer, ingen data indsamlet.",
+    frameAlt6:
+      "Prøv den på dine egne varer. De første 10 scanninger er gratis.",
     howKicker: "Sådan virker det",
     howTitle: "Et hurtigt tjek, mens du handler.",
     howText: "Tre trin, cirka ti sekunder, mens du står ved hylden.",
@@ -113,12 +112,12 @@ const translations = {
       "Hold etiketten i godt lys, og sørg for at teksten er inden for rammen.",
     stepThreeTitle: "Tjek resultatet",
     stepThreeText:
-      "Appen viser en enkel blodsukkerbjælke med mulighed for flere detaljer.",
+      "Appen viser, hvad den fandt, og en enkel blodsukkerbjælke med detaljerne bag.",
     trustKicker: "Derfor kan du stole på den",
     trustTitle: "Bygget til at være til at stole på.",
     trustOneTitle: "Vi ser aldrig, hvad du har scannet",
     trustOneText:
-      "Billedet bliver på din telefon, og telefonen læser selv teksten. Der er ingen server, det kan blive sendt til — appen henter kun listen og sender aldrig noget op.",
+      "Billedet bliver på din telefon, og telefonen læser selv teksten. Der er ingen server, det kan blive sendt til — appen henter kun listen. Billedet forlader kun din telefon, hvis du selv sender det til os som feedback på e-mail.",
     trustTwoTitle: "Skrevet af nogen, der selv lever med det",
     trustTwoText:
       "Listen er sat sammen af danskere med type 2-diabetes. Appen viser altid, hvorfor en ingrediens har fået sin vurdering, så du selv kan tage stilling til begrundelsen.",
@@ -130,9 +129,8 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
-      "Sødeguiden udkommer til både iPhone og Android på samme tid. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
-    requirements:
-      "Kræver iOS 16 eller nyere, eller Android 10 eller nyere, samt et fungerende kamera.",
+      "Sødeguiden kommer først til iPhone, og Android følger efter. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
+    requirements: "Kræver en iPhone med iOS 17 eller nyere.",
     footerTagline: "En roligere måde at læse en varedeklaration på.",
     disclaimerTitle: "Ikke lægelig rådgivning.",
     disclaimerText:
@@ -177,6 +175,16 @@ function applyLanguage(language) {
     element.setAttribute("aria-label", dictionary[key]);
   });
 
+  document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+    element.setAttribute("alt", dictionary[element.getAttribute("data-i18n-alt")]);
+  });
+
+  // Each language has its own set of App Store frames.
+  document.querySelectorAll("[data-frame]").forEach((image) => {
+    const frame = image.getAttribute("data-frame");
+    image.setAttribute("src", `frames/${translations[language] ? language : "en"}/${frame}.webp`);
+  });
+
   document.querySelectorAll("[data-lang-choice]").forEach((button) => {
     const isActive = button.getAttribute("data-lang-choice") === language;
     button.classList.toggle("is-active", isActive);
@@ -193,3 +201,77 @@ document.querySelectorAll("[data-lang-choice]").forEach((button) => {
 });
 
 applyLanguage(initialLanguage);
+
+// The gallery scrolls natively (swipe, trackpad, keyboard); the arrows and dots
+// step it a frame at a time and show where it is.
+const galleryTrack = document.querySelector(".gallery-track");
+
+if (galleryTrack) {
+  const frames = [...galleryTrack.querySelectorAll(".gallery-frame")];
+  const dots = [...document.querySelectorAll("[data-gallery-dot]")];
+  const arrows = [...document.querySelectorAll("[data-gallery-step]")];
+
+  const currentIndex = () => {
+    const middle = galleryTrack.scrollLeft + galleryTrack.clientWidth / 2;
+    let nearest = 0;
+    frames.forEach((frame, index) => {
+      const centre = frame.offsetLeft + frame.offsetWidth / 2;
+      const best = frames[nearest].offsetLeft + frames[nearest].offsetWidth / 2;
+      if (Math.abs(centre - middle) < Math.abs(best - middle)) nearest = index;
+    });
+    return nearest;
+  };
+
+  // Where a click is taking the track. A second click while it is still
+  // scrolling steps on from there, not from wherever the animation has got to.
+  let target = null;
+  let settle;
+
+  const showFrame = (index) => {
+    target = Math.max(0, Math.min(frames.length - 1, index));
+    const frame = frames[target];
+    galleryTrack.scrollTo({
+      left: frame.offsetLeft - (galleryTrack.clientWidth - frame.offsetWidth) / 2,
+    });
+    updateControls();
+  };
+
+  const updateControls = () => {
+    const index = target ?? currentIndex();
+    dots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("is-active", dotIndex === index);
+      dot.setAttribute("aria-current", dotIndex === index ? "true" : "false");
+    });
+    arrows.forEach((arrow) => {
+      const step = Number(arrow.getAttribute("data-gallery-step"));
+      arrow.disabled = step < 0 ? index === 0 : index === frames.length - 1;
+    });
+  };
+
+  arrows.forEach((arrow) => {
+    arrow.addEventListener("click", () => {
+      showFrame((target ?? currentIndex()) + Number(arrow.getAttribute("data-gallery-step")));
+    });
+  });
+
+  dots.forEach((dot) => {
+    dot.addEventListener("click", () => {
+      showFrame(Number(dot.getAttribute("data-gallery-dot")));
+    });
+  });
+
+  galleryTrack.addEventListener(
+    "scroll",
+    () => {
+      clearTimeout(settle);
+      settle = setTimeout(() => {
+        target = null;
+        updateControls();
+      }, 150);
+      updateControls();
+    },
+    { passive: true },
+  );
+  window.addEventListener("resize", updateControls);
+  updateControls();
+}
