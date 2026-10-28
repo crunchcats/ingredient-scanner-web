@@ -68,6 +68,7 @@ const translations = {
     copyright: "© 2026 The Sweetener Guide",
     privacyLink: "Privacy policy",
     termsLink: "Terms of use",
+    supportLink: "Support",
   },
   da: {
     metaTitle: "Sødeguiden",
@@ -138,10 +139,11 @@ const translations = {
     copyright: "© 2026 Sødeguiden",
     privacyLink: "Privatlivspolitik",
     termsLink: "Brugsvilkår",
+    supportLink: "Hjælp",
   },
 };
 
-// Pages with their own copy (privacy.html, terms.html) define
+// Pages with their own copy (privacy.html, terms.html, support.html) define
 // window.pageTranslations before this file loads. Merge it in so one language
 // switcher serves both.
 if (window.pageTranslations) {
