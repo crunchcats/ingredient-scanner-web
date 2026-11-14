@@ -7,7 +7,7 @@ window.pageTranslations = {
     metaDescription: "What The Sweetener Guide does and does not collect, in plain language.",
     backToSite: "Back to the front page",
     legalTitle: "Privacy policy",
-    legalUpdated: "Last updated 13 November 2026",
+    legalUpdated: "Last updated 14 November 2026",
     legalSummary:
       "The short version: the app reads the ingredient list on your phone, and we never learn what you scanned. If you say yes to the extra check of the ingredient list, the ingredient list — the photo and the text the app read — is sent to an AI service that reads it again, and the app sends anonymous statistics about how the scan went. Without your yes, nothing about your scans leaves your phone unless you send us feedback yourself. The detail is below.",
     s1Title: "Who is responsible",
@@ -26,7 +26,7 @@ window.pageTranslations = {
       "The request carries no identifier: no account, no device ID, no advertising ID. As the host, GitHub handles the request technically and can see the IP address it came from and the time it arrived, under its own privacy statement. We never see any of it, and there is nothing in the request that says anything about you or what you scanned.",
     s3dTitle: "Extra check of the ingredient list (only with your yes)",
     s3dBody:
-      "The first time you open the scanner, the app asks whether you would like an extra check of the ingredient list. If you say yes, after each scan the photo of the ingredient list and the text the app read from it are sent to TypeSafe (typesafe.ai) in the USA, an AI service that reads the list again and answers which sweeteners and sugars it names. The answer is used only to find what the app would otherwise have missed. Your name, email address, location and anything else about you are not sent, and the photo is used only to read the label. TypeSafe states in its own privacy policy that what it receives is not used to train its models.",
+      "After your first scan, the app asks whether you would like an extra check of the ingredient list. If you say yes, after each scan the photo of the ingredient list and the text the app read from it are sent to TypeSafe (typesafe.ai) in the USA, an AI service that reads the list again and answers which sweeteners and sugars it names. The answer is used only to find what the app would otherwise have missed. Your name, email address, location and anything else about you are not sent, and the photo is used only to read the label. TypeSafe states in its own privacy policy that what it receives is not used to train its models.",
     s3dBody2:
       "The ingredient list goes through our own server at Cloudflare, which checks that the request comes from a genuine copy of the app (using Apple's App Attest) and passes it on. Our server keeps neither the photo nor the text. You can turn the extra check off at any time in Settings → “Extra check of the ingredient list”. Nothing more is sent, and the app works as before.",
     s3eTitle: "Anonymous statistics (only with your yes)",
@@ -87,7 +87,7 @@ window.pageTranslations = {
     metaDescription: "Hvad Sødeguiden indsamler og ikke indsamler, i et almindeligt sprog.",
     backToSite: "Tilbage til forsiden",
     legalTitle: "Privatlivspolitik",
-    legalUpdated: "Senest opdateret 13. november 2026",
+    legalUpdated: "Senest opdateret 14. november 2026",
     legalSummary:
       "Kort fortalt: Appen læser ingredienslisten på din telefon, og vi får ikke at vide, hvad du har scannet. Siger du ja til ekstra kontrol af ingredienslisten, sendes ingredienslisten — billedet og den tekst, appen har læst — til en AI-tjeneste, der læser den en gang til, og appen sender anonym statistik om, hvordan scanningen gik. Uden dit ja forlader intet om dine scanninger din telefon, medmindre du selv sender os feedback. Detaljerne står nedenfor.",
     s1Title: "Hvem er ansvarlig",
@@ -106,7 +106,7 @@ window.pageTranslations = {
       "Forespørgslen indeholder ingen identifikator: ingen konto, intet enheds-id, intet annonce-id. Som vært håndterer GitHub forespørgslen teknisk og kan se, hvilken IP-adresse den kom fra, og hvornår den kom, efter deres egen privatlivspolitik. Vi ser det aldrig, og der er intet i forespørgslen, der siger noget om dig eller om, hvad du har scannet.",
     s3dTitle: "Ekstra kontrol af ingredienslisten (kun med dit ja)",
     s3dBody:
-      "Første gang du åbner scanneren, spørger appen, om du vil have ekstra kontrol af ingredienslisten. Siger du ja, sendes billedet af ingredienslisten og den tekst, appen har læst fra det, efter hver scanning til TypeSafe (typesafe.ai) i USA, en AI-tjeneste, der læser listen en gang til og svarer, hvilke sødestoffer og sukkerarter den nævner. Svaret bruges kun til at finde det, appen ellers ville have overset. Der sendes ikke dit navn, din e-mailadresse, din placering eller andet om dig, og billedet bruges kun til at læse etiketten. TypeSafe oplyser i sin egen privatlivspolitik, at det, den modtager, ikke bruges til at træne dens modeller.",
+      "Efter din første scanning spørger appen, om du vil have ekstra kontrol af ingredienslisten. Siger du ja, sendes billedet af ingredienslisten og den tekst, appen har læst fra det, efter hver scanning til TypeSafe (typesafe.ai) i USA, en AI-tjeneste, der læser listen en gang til og svarer, hvilke sødestoffer og sukkerarter den nævner. Svaret bruges kun til at finde det, appen ellers ville have overset. Der sendes ikke dit navn, din e-mailadresse, din placering eller andet om dig, og billedet bruges kun til at læse etiketten. TypeSafe oplyser i sin egen privatlivspolitik, at det, den modtager, ikke bruges til at træne dens modeller.",
     s3dBody2:
       "Ingredienslisten sendes gennem vores egen server hos Cloudflare, som tjekker, at forespørgslen kommer fra en ægte udgave af appen (med Apples App Attest), og sender den videre. Vores server gemmer hverken billedet eller teksten. Du kan slå ekstra kontrol fra når som helst under Indstillinger → »Ekstra kontrol af ingredienslisten«. Så sendes der intet mere, og appen virker som før.",
     s3eTitle: "Anonym statistik (kun med dit ja)",

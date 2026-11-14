@@ -54,7 +54,7 @@ window.pageTranslations = {
 
     q9Title: "Your data",
     q9Body:
-      "The app has no account and sends us nothing by itself, so there is nothing to delete unless you have emailed us. If you have, write and we will show you what we have or delete it.",
+      "The app has no account, and nothing it sends can be traced to you, so there is nothing of yours to delete unless you have emailed us. If you have, write and we will show you what we have or delete it. The privacy policy describes what the extra check sends when you have said yes.",
     q9Link: "Read the privacy policy",
   },
 
@@ -110,7 +110,7 @@ window.pageTranslations = {
 
     q9Title: "Dine data",
     q9Body:
-      "Appen har ingen konto og sender ikke selv noget til os, så der er intet at slette, medmindre du har skrevet til os. Har du det, så skriv, og vi viser dig, hvad vi har, eller sletter det.",
+      "Appen har ingen konto, og intet af det, den sender, kan føres tilbage til dig, så der er intet om dig at slette, medmindre du har skrevet til os. Har du det, så skriv, og vi viser dig, hvad vi har, eller sletter det. I privatlivspolitikken står, hvad den ekstra kontrol sender, når du har sagt ja.",
     q9Link: "Læs privatlivspolitikken",
   },
 };

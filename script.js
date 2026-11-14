@@ -28,7 +28,7 @@ const translations = {
     frameAlt4:
       "You get the facts. You decide. A result telling you to check carbohydrates and sugars on the pack.",
     frameAlt5:
-      "No account. Nothing kept about you. No login, no ads, no data collected.",
+      "No account. No tracking. No login, no ads. The ingredient list is sent only with your yes.",
     frameAlt6:
       "Try it on your own groceries. The first 10 scans are free.",
     howKicker: "How it works",
@@ -42,20 +42,20 @@ const translations = {
       "Hold the label in good light and keep the text inside the frame.",
     stepThreeTitle: "Check the result",
     stepThreeText:
-      "The app shows what it found and a simple glucose impact bar, with the details behind it.",
+      "The app shows what it found and how it affects blood sugar, with the details behind it.",
     trustKicker: "Why you can rely on it",
     trustTitle: "Built to be trusted, not clever.",
-    trustOneTitle: "We never see what you scanned",
+    trustOneTitle: "Nothing is sent without your yes",
     trustOneText:
-      "The photo stays on your phone and your phone reads the text itself. There is no server for it to be sent to — the app only ever downloads the list. The photo leaves your phone only if you email it to us as feedback yourself.",
+      "Your phone reads the label itself, and we never learn what you scanned. The app can offer an extra check, where the photo and the text are sent to an AI service that reads the list once more. That happens only if you say yes, and you can turn it off in Settings.",
     trustTwoTitle: "Written by people who live with it",
     trustTwoText:
       "The list is put together by Danes with type 2 diabetes. The app always shows why an ingredient got its rating, so you can weigh up the reasoning yourself.",
     trustThreeTitle: "Works with no signal",
     trustThreeText:
-      "The whole list is built into the app. It works from the very first launch — at the back of a shop, in a basement freezer aisle, or on holiday.",
+      "The whole list is built into the app. It works from the very first launch — at the back of a shop, in a basement freezer aisle, or on holiday. Only the extra check needs a connection.",
     trustNote:
-      "The only figures we ever see are the aggregated download and usage counts that Apple and Google publish to every app in their stores. Nothing in them relates to what you scanned.",
+      "Besides the download and usage counts that Apple and Google give every app, we see anonymous statistics about how scans went, and only if you said yes to the extra check. They hold no photo, no text and nothing that identifies you.",
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
@@ -101,7 +101,7 @@ const translations = {
     frameAlt4:
       "Du får overblikket. Du vælger. Et resultat, der beder dig tjekke kulhydrat og sukkerarter på pakken.",
     frameAlt5:
-      "Ingen konto. Intet gemt om dig. Intet login, ingen reklamer, ingen data indsamlet.",
+      "Ingen konto. Ingen sporing. Ingen login, ingen reklamer. Ingredienslisten sendes kun med dit ja.",
     frameAlt6:
       "Prøv den på dine egne varer. De første 10 scanninger er gratis.",
     howKicker: "Sådan virker det",
@@ -115,20 +115,20 @@ const translations = {
       "Hold etiketten i godt lys, og sørg for at teksten er inden for rammen.",
     stepThreeTitle: "Tjek resultatet",
     stepThreeText:
-      "Appen viser, hvad den fandt, og en enkel blodsukkerbjælke med detaljerne bag.",
+      "Appen viser, hvad den fandt, og hvordan det påvirker blodsukkeret, med detaljerne bag.",
     trustKicker: "Derfor kan du stole på den",
     trustTitle: "Bygget til at være til at stole på.",
-    trustOneTitle: "Vi ser aldrig, hvad du har scannet",
+    trustOneTitle: "Intet sendes uden dit ja",
     trustOneText:
-      "Billedet bliver på din telefon, og telefonen læser selv teksten. Der er ingen server, det kan blive sendt til — appen henter kun listen. Billedet forlader kun din telefon, hvis du selv sender det til os som feedback på e-mail.",
+      "Telefonen læser selv etiketten, og vi får ikke at vide, hvad du har scannet. Appen kan tilbyde en ekstra kontrol, hvor billedet og teksten sendes til en AI-tjeneste, der læser listen en gang til. Det sker kun, hvis du siger ja, og du kan slå det fra i Indstillinger.",
     trustTwoTitle: "Skrevet af nogen, der selv lever med det",
     trustTwoText:
       "Listen er sat sammen af danskere med type 2-diabetes. Appen viser altid, hvorfor en ingrediens har fået sin vurdering, så du selv kan tage stilling til begrundelsen.",
     trustThreeTitle: "Virker uden signal",
     trustThreeText:
-      "Hele listen ligger i appen. Den virker fra allerførste start — bagest i butikken, ved frostvarerne i kælderen eller på ferien.",
+      "Hele listen ligger i appen. Den virker fra allerførste start — bagest i butikken, ved frostvarerne i kælderen eller på ferien. Kun den ekstra kontrol kræver forbindelse.",
     trustNote:
-      "De eneste tal, vi nogensinde ser, er de sammenlagte downloads og brugstal, som Apple og Google giver alle apps i deres butikker. Intet i dem handler om, hvad du har scannet.",
+      "Ud over de downloads og brugstal, som Apple og Google giver alle apps, ser vi anonym statistik om, hvordan scanningerne gik, og kun hvis du har sagt ja til ekstra kontrol. Den indeholder hverken billede, tekst eller noget, der kan identificere dig.",
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
