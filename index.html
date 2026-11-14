@@ -62,7 +62,7 @@
       <section class="hero" aria-labelledby="page-title">
         <div class="hero-inner">
           <div class="hero-copy">
-            <p class="status-badge" data-i18n="statusBadge">Coming soon to iPhone</p>
+            <p class="status-badge" data-i18n="statusBadge">Out now for iPhone</p>
             <h1 id="page-title" data-i18n="heroTitle">Point at the ingredients list.</h1>
             <p class="lede" data-i18n="heroText">
               Scan a food label and see which sweeteners and sugars are in it. The
@@ -70,12 +70,12 @@
             </p>
 
             <div class="store-buttons" aria-label="Download options" data-i18n-aria="downloadOptions">
-              <a class="store-button is-pending" aria-disabled="true" href="#download">
+              <a class="store-button is-live" href="https://apps.apple.com/app/apple-store/id6795543234?pt=126789986&amp;ct=website&amp;mt=8">
                 <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
                   <path fill="currentColor" d="M16.4 12.7c0-2.2 1.8-3.3 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.5-.7 2.9-.7 1.3 0 1.7.7 2.9.7 1.2 0 2-1.1 2.7-2.2.9-1.2 1.2-2.5 1.2-2.5s-2.3-.9-2.3-3.8Zm-2.3-7c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
                 </svg>
                 <span class="store-text">
-                  <small data-i18n="storePrefix">Coming soon on the</small>
+                  <small data-i18n="storePrefix">Download on the</small>
                   <strong data-i18n="storeApple">App Store</strong>
                 </span>
               </a>
@@ -239,18 +239,18 @@
             <p class="section-kicker" data-i18n="downloadKicker">Download</p>
             <h2 id="download-title" data-i18n="downloadTitle">Install on your phone.</h2>
             <p class="section-lede" data-i18n="downloadText">
-              The Sweetener Guide comes to iPhone first, with Android to follow.
-              Install it, allow camera access, and you are ready to shop.
+              The Sweetener Guide is on the App Store for iPhone, with Android
+              to follow. Install it, allow camera access, and you are ready to shop.
             </p>
           </div>
 
           <div class="store-buttons is-centered" aria-label="Download options" data-i18n-aria="downloadOptions">
-            <a class="store-button on-light is-pending" aria-disabled="true" href="#download">
+            <a class="store-button on-light is-live" href="https://apps.apple.com/app/apple-store/id6795543234?pt=126789986&amp;ct=website&amp;mt=8">
               <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill="currentColor" d="M16.4 12.7c0-2.2 1.8-3.3 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.5-.7 2.9-.7 1.3 0 1.7.7 2.9.7 1.2 0 2-1.1 2.7-2.2.9-1.2 1.2-2.5 1.2-2.5s-2.3-.9-2.3-3.8Zm-2.3-7c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
               </svg>
               <span class="store-text">
-                <small data-i18n="storePrefix">Coming soon on the</small>
+                <small data-i18n="storePrefix">Download on the</small>
                 <strong data-i18n="storeApple">App Store</strong>
               </span>
             </a>
@@ -265,6 +265,15 @@
               </span>
             </a>
           </div>
+
+          <!-- For someone reading on a computer: the same App Store link, tagged
+               ct=website-qr. Hidden on a phone, where the button above does the job. -->
+          <figure class="qr-card">
+            <img class="qr-code" src="qr-app-store.svg" width="180" height="180" alt="" data-i18n-alt="qrAlt">
+            <figcaption data-i18n="qrCaption">
+              On a computer? Point your iPhone's camera at the code.
+            </figcaption>
+          </figure>
 
           <p class="requirements" data-i18n="requirements">
             Requires an iPhone with iOS 17 or later.

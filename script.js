@@ -10,10 +10,10 @@ const translations = {
     heroTitle: "Point at the ingredients list.",
     heroText:
       "Scan a food label and see which sweeteners and sugars are in it. The app shows what it found; the choice is yours.",
-    statusBadge: "Coming soon to iPhone",
+    statusBadge: "Out now for iPhone",
     heroNote:
       "Ten scans free. No account needed. Works without an internet connection.",
-    storePrefix: "Coming soon on the",
+    storePrefix: "Download on the",
     storePrefixLater: "Coming later to",
     storeApple: "App Store",
     storeGoogle: "Google Play",
@@ -59,7 +59,9 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
-      "The Sweetener Guide comes to iPhone first, with Android to follow. Install it, allow camera access, and you are ready to shop.",
+      "The Sweetener Guide is on the App Store for iPhone, with Android to follow. Install it, allow camera access, and you are ready to shop.",
+    qrCaption: "On a computer? Point your iPhone's camera at the code.",
+    qrAlt: "QR code that opens The Sweetener Guide on the App Store",
     requirements: "Requires an iPhone with iOS 17 or later.",
     footerTagline: "A calmer way to read a food label.",
     disclaimerTitle: "Not medical advice.",
@@ -81,10 +83,10 @@ const translations = {
     heroTitle: "Peg på ingredienslisten.",
     heroText:
       "Scan en varedeklaration og se, hvilke sødestoffer og sukkerarter den indeholder. Appen viser, hvad den fandt; valget er dit.",
-    statusBadge: "Kommer snart til iPhone",
+    statusBadge: "Ude nu til iPhone",
     heroNote:
       "Ti scanninger gratis. Ingen konto nødvendig. Virker uden internetforbindelse.",
-    storePrefix: "Kommer snart i",
+    storePrefix: "Hent i",
     storePrefixLater: "Kommer senere i",
     storeApple: "App Store",
     storeGoogle: "Google Play",
@@ -130,7 +132,9 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
-      "Sødeguiden kommer først til iPhone, og Android følger efter. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
+      "Sødeguiden kan hentes til iPhone i App Store, og Android følger efter. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
+    qrCaption: "Sidder du ved en computer? Peg din iPhones kamera mod koden.",
+    qrAlt: "QR-kode, der åbner Sødeguiden i App Store",
     requirements: "Kræver en iPhone med iOS 17 eller nyere.",
     footerTagline: "En roligere måde at læse en varedeklaration på.",
     disclaimerTitle: "Ikke lægelig rådgivning.",

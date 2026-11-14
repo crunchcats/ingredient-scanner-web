@@ -410,10 +410,35 @@ h3 {
   box-shadow: var(--shadow-md);
 }
 
-/* Pre-launch state. Removing `.is-pending` and setting a real href turns
-   these into live download buttons — no other change needed. */
+/* A store the app is on: the filled button, so it reads as the one to press. */
+.store-button.is-live {
+  color: var(--green-900);
+  border-color: var(--on-dark);
+  background: var(--on-dark);
+}
+
+.store-button.is-live:hover {
+  border-color: var(--mint-200);
+  background: var(--mint-200);
+  transform: translateY(-1px);
+}
+
+.store-button.on-light.is-live {
+  color: var(--on-dark);
+  border-color: var(--green-700);
+  background: var(--green-700);
+}
+
+.store-button.on-light.is-live:hover {
+  border-color: var(--green-600);
+  background: var(--green-600);
+}
+
+/* Pre-launch state. Swapping `.is-pending` for `.is-live` and setting a real
+   href turns one into a download button. */
 .store-button.is-pending {
   cursor: default;
+  opacity: 0.72;
 }
 
 .store-button.is-pending:hover {
@@ -444,6 +469,37 @@ h3 {
   font-size: var(--text-lg);
   font-weight: 600;
   letter-spacing: -0.01em;
+}
+
+/* The QR code: white behind it and a quiet zone in the image itself, so a phone
+   camera reads it on any screen. */
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s-4);
+  width: fit-content;
+  max-width: 100%;
+  margin: var(--s-6) auto 0;
+  padding: var(--s-5);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.qr-code {
+  width: 180px;
+  height: 180px;
+  image-rendering: pixelated;
+}
+
+.qr-card figcaption {
+  max-width: 24ch;
+  color: var(--ink);
+  font-size: var(--text-sm);
+  line-height: 1.45;
+  text-align: center;
 }
 
 .requirements {
@@ -911,6 +967,10 @@ h3 {
 
   .store-button {
     width: 100%;
+  }
+
+  .qr-card {
+    display: none;
   }
 
   .band {
