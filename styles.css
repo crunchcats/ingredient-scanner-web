@@ -434,17 +434,6 @@ h3 {
   background: var(--green-600);
 }
 
-/* Pre-launch state. Swapping `.is-pending` for `.is-live` and setting a real
-   href turns one into a download button. */
-.store-button.is-pending {
-  cursor: default;
-  opacity: 0.72;
-}
-
-.store-button.is-pending:hover {
-  transform: none;
-}
-
 .store-logo {
   width: 26px;
   height: 26px;
@@ -469,6 +458,19 @@ h3 {
   font-size: var(--text-lg);
   font-weight: 600;
   letter-spacing: -0.01em;
+}
+
+/* One QR code per store, side by side. */
+.qr-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-5);
+  margin-top: var(--s-6);
+}
+
+.qr-cards .qr-card {
+  margin: 0;
 }
 
 /* The QR code: white behind it and a quiet zone in the image itself, so a phone

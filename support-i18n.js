@@ -50,7 +50,7 @@ window.pageTranslations = {
 
     q8Title: "Redeeming a code",
     q8Body:
-      "If you have been given a code for the subscription, redeem it in the App Store app: tap your profile picture at the top right, then Redeem Gift Card or Code. The subscription then shows up in the app by itself.",
+      "If you have been given a code for the subscription, you redeem it in the app. On iPhone, open Settings (the gear on the scanner) and tap Redeem code. On Android, open Settings and tap See subscription, choose Monthly and tap Start subscription; in Google Play's window, tap the payment method and choose Redeem code. If the code came as a link, tapping the link is enough. The subscription then shows up in the app by itself.",
 
     q9Title: "Your data",
     q9Body:
@@ -106,7 +106,7 @@ window.pageTranslations = {
 
     q8Title: "Indløs en kode",
     q8Body:
-      "Har du fået en kode til abonnementet, indløser du den i App Store-appen: tryk på dit profilbillede øverst til højre og derefter på Indløs gavekort eller kode. Abonnementet dukker derefter selv op i appen.",
+      "Har du fået en kode til abonnementet, indløser du den i appen. På iPhone åbner du Indstillinger (tandhjulet på scanneren) og trykker på Indløs kode. På Android åbner du Indstillinger og trykker på Se abonnement, vælger Månedligt og trykker på Start abonnement; i Google Plays vindue trykker du på betalingsmetoden og vælger Indløs kode. Har du fået koden som et link, er det nok at trykke på linket. Abonnementet dukker derefter selv op i appen.",
 
     q9Title: "Dine data",
     q9Body:

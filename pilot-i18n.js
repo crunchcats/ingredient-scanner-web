@@ -40,7 +40,6 @@ window.pageTranslations = {
     androidStep1Title: "Get the app",
     androidStep1Body:
       "Tap the button and install The Sweetener Guide from Google Play.",
-    androidGetPrefix: "Get it on",
     androidQrCaption: "On a computer? Point your phone's camera at the code.",
     androidQrAlt: "QR code that opens The Sweetener Guide on Google Play",
     androidStep2Title: "Open the app and allow the camera",
@@ -116,7 +115,6 @@ window.pageTranslations = {
     androidStep1Title: "Hent appen",
     androidStep1Body:
       "Tryk på knappen, og installer Sødeguiden fra Google Play.",
-    androidGetPrefix: "Hent i",
     androidQrCaption:
       "Sidder du ved en computer? Peg din telefons kamera mod koden.",
     androidQrAlt: "QR-kode, der åbner Sødeguiden i Google Play",

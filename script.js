@@ -10,11 +10,11 @@ const translations = {
     heroTitle: "Point at the ingredients list.",
     heroText:
       "Scan a food label and see which sweeteners and sugars are in it. The app shows what it found; the choice is yours.",
-    statusBadge: "Out now for iPhone",
+    statusBadge: "Out now for iPhone and Android",
     heroNote:
       "Ten scans free. No account needed. Works without an internet connection.",
     storePrefix: "Download on the",
-    storePrefixLater: "Coming later to",
+    storePrefixGoogle: "Get it on",
     storeApple: "App Store",
     storeGoogle: "Google Play",
     galleryPrevious: "Previous screen",
@@ -59,10 +59,13 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Install on your phone.",
     downloadText:
-      "The Sweetener Guide is on the App Store for iPhone, with Android to follow. Install it, allow camera access, and you are ready to shop.",
-    qrCaption: "On a computer? Point your iPhone's camera at the code.",
-    qrAlt: "QR code that opens The Sweetener Guide on the App Store",
-    requirements: "Requires an iPhone with iOS 17 or later.",
+      "The Sweetener Guide is on the App Store for iPhone and on Google Play for Android. Install it, allow camera access, and you are ready to shop.",
+    qrAppleCaption: "iPhone: point the camera at this code.",
+    qrAppleAlt: "QR code that opens The Sweetener Guide on the App Store",
+    qrGoogleCaption: "Android: point the camera at this code.",
+    qrGoogleAlt: "QR code that opens The Sweetener Guide on Google Play",
+    requirements:
+      "Requires an iPhone with iOS 17 or later, or a phone with Android 8 or later.",
     footerTagline: "A calmer way to read a food label.",
     disclaimerTitle: "Not medical advice.",
     disclaimerText:
@@ -83,11 +86,11 @@ const translations = {
     heroTitle: "Peg på ingredienslisten.",
     heroText:
       "Scan en varedeklaration og se, hvilke sødestoffer og sukkerarter den indeholder. Appen viser, hvad den fandt; valget er dit.",
-    statusBadge: "Ude nu til iPhone",
+    statusBadge: "Ude nu til iPhone og Android",
     heroNote:
       "Ti scanninger gratis. Ingen konto nødvendig. Virker uden internetforbindelse.",
     storePrefix: "Hent i",
-    storePrefixLater: "Kommer senere i",
+    storePrefixGoogle: "Hent i",
     storeApple: "App Store",
     storeGoogle: "Google Play",
     galleryPrevious: "Forrige skærm",
@@ -132,10 +135,13 @@ const translations = {
     downloadKicker: "Download",
     downloadTitle: "Installer på din telefon.",
     downloadText:
-      "Sødeguiden kan hentes til iPhone i App Store, og Android følger efter. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
-    qrCaption: "Sidder du ved en computer? Peg din iPhones kamera mod koden.",
-    qrAlt: "QR-kode, der åbner Sødeguiden i App Store",
-    requirements: "Kræver en iPhone med iOS 17 eller nyere.",
+      "Sødeguiden kan hentes til iPhone i App Store og til Android i Google Play. Installer den, giv adgang til kameraet, og så er du klar til at handle.",
+    qrAppleCaption: "iPhone: peg kameraet mod denne kode.",
+    qrAppleAlt: "QR-kode, der åbner Sødeguiden i App Store",
+    qrGoogleCaption: "Android: peg kameraet mod denne kode.",
+    qrGoogleAlt: "QR-kode, der åbner Sødeguiden i Google Play",
+    requirements:
+      "Kræver en iPhone med iOS 17 eller nyere eller en telefon med Android 8 eller nyere.",
     footerTagline: "En roligere måde at læse en varedeklaration på.",
     disclaimerTitle: "Ikke lægelig rådgivning.",
     disclaimerText:
