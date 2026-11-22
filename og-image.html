@@ -1,0 +1,108 @@
+<!doctype html>
+<!--
+  The source of og-image.jpg, the 1200 × 630 picture a link to the site shows
+  when it is shared. Not a page of the site: nothing links here.
+
+  To make the picture again after changing this file, open it in a browser
+  window of exactly 1200 × 630 and save a screenshot as og-image.jpg (JPEG).
+  Sites that show link previews keep the old picture for a while; their own
+  "rescan" or "debugger" tools fetch the new one.
+
+  Keep the words in step with the front page: the badge with statusBadge and
+  the sentence with heroText in script.js.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Link preview picture — The Sweetener Guide</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      html, body {
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 88px;
+        color: #fff;
+        background:
+          radial-gradient(circle at 1010px 130px, rgba(64, 145, 108, 0.62), transparent 420px),
+          linear-gradient(135deg, #082f24 0%, #123d31 55%, #0d382c 100%);
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        margin-bottom: 30px;
+        font-size: 31px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .brand svg {
+        width: 56px;
+        height: 56px;
+        color: #d8f3dc;
+      }
+
+      h1 {
+        margin-bottom: 26px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+      }
+
+      p {
+        max-width: 860px;
+        margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 24px;
+        line-height: 1.55;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        width: fit-content;
+        padding: 9px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+
+      .badge::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #52b788;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="brand">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 3.5c3.6 3.4 5.6 6.2 5.6 8.9A5.6 5.6 0 0 1 12 18a5.6 5.6 0 0 1-5.6-5.6c0-2.7 2-5.5 5.6-8.9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M9.6 12.6c.2 1.3 1.1 2.2 2.4 2.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      The Sweetener Guide
+    </div>
+    <h1>Point at the ingredients list.</h1>
+    <p>Scan a food label and see which sweeteners and sugars are in it.</p>
+    <div class="badge">Out now for iPhone and Android</div>
+  </body>
+</html>
