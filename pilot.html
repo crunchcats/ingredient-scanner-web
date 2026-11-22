@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pilot — The Sweetener Guide</title>
+    <meta
+      name="description"
+      content="How pilot users install The Sweetener Guide and redeem their free subscription, on iPhone and Android."
+    >
+    <!-- For the pilot users only: sent as a link, not linked from the rest of
+         the site, and kept out of search results. It shows both redemption
+         codes to anyone who has the address (owner's decision, 22 November
+         2026). -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#1b4332">
+    <!-- The link preview is in Danish: the pilot users are Danish, and a
+         preview is built without running the language switch. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sødeguiden">
+    <meta property="og:url" content="https://sødeguiden.dk/pilot.html">
+    <meta property="og:title" content="Sødeguiden — kom i gang som pilotbruger">
+    <meta
+      property="og:description"
+      content="Sådan henter du Sødeguiden og indløser din gratis adgang, på iPhone og Android."
+    >
+    <meta property="og:image" content="https://sødeguiden.dk/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="da_DK">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header is-solid">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3.5c3.6 3.4 5.6 6.2 5.6 8.9A5.6 5.6 0 0 1 12 18a5.6 5.6 0 0 1-5.6-5.6c0-2.7 2-5.5 5.6-8.9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M9.6 12.6c.2 1.3 1.1 2.2 2.4 2.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-name" data-i18n="appName">The Sweetener Guide</span>
+        </a>
+
+        <div class="header-actions">
+          <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language">
+            <button class="language-option is-active" type="button" data-lang-choice="en">
+              English
+            </button>
+            <button class="language-option" type="button" data-lang-choice="da">
+              Dansk
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main class="legal pilot">
+      <div class="legal-inner">
+        <h1 data-i18n="pilotTitle">Get started as a pilot user</h1>
+
+        <p class="legal-summary" data-i18n="pilotSummary">
+          Thank you for trying The Sweetener Guide. As a pilot user you get the
+          subscription free. Choose your phone and follow the steps.
+        </p>
+
+        <!-- pilot.js picks the phone's own platform, or the one named in the
+             address (pilot.html#android). Without JavaScript both sets of
+             steps show, one after the other. -->
+        <div class="platform-switch" role="group" aria-label="Your phone" data-i18n-aria="platformLabel">
+          <button class="platform-option" type="button" data-platform-choice="ios">iPhone</button>
+          <button class="platform-option" type="button" data-platform-choice="android">Android</button>
+        </div>
+
+        <section class="platform-panel" data-platform="ios" aria-labelledby="ios-title">
+          <h2 id="ios-title" data-i18n="iosTitle">On iPhone</h2>
+
+          <ol class="pilot-steps">
+            <li>
+              <h3 data-i18n="iosStep1Title">Redeem your code</h3>
+              <p data-i18n="iosStep1Body">
+                Tap the button. The App Store opens with the code filled in.
+                Tap Redeem and confirm with Face ID or your Apple password.
+              </p>
+              <div class="pilot-action">
+                <a class="store-button on-light is-live" href="https://apps.apple.com/redeem?ctx=offercodes&amp;id=6795543234&amp;code=GRATIS26">
+                  <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M16.4 12.7c0-2.2 1.8-3.3 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.5-.7 2.9-.7 1.3 0 1.7.7 2.9.7 1.2 0 2-1.1 2.7-2.2.9-1.2 1.2-2.5 1.2-2.5s-2.3-.9-2.3-3.8Zm-2.3-7c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
+                  </svg>
+                  <span class="store-text">
+                    <small data-i18n="iosRedeemPrefix">Redeem the code in the</small>
+                    <strong data-i18n="storeApple">App Store</strong>
+                  </span>
+                </a>
+                <figure class="qr-card pilot-qr">
+                  <img class="qr-code" src="qr-pilot-ios.svg" width="180" height="180" alt="" data-i18n-alt="iosQrAlt">
+                  <figcaption data-i18n="iosQrCaption">
+                    On a computer? Point your iPhone's camera at the code.
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <h3 data-i18n="iosStep2Title">Get the app</h3>
+              <p data-i18n="iosStep2Body">
+                When the code is redeemed, the App Store offers to download The
+                Sweetener Guide. If it does not, find the app here:
+              </p>
+              <p>
+                <a class="legal-link" href="https://apps.apple.com/app/apple-store/id6795543234?pt=126789986&amp;ct=pilot&amp;mt=8" data-i18n="iosStep2Link">
+                  The Sweetener Guide on the App Store
+                </a>
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="iosStep3Title">Open the app and allow the camera</h3>
+              <p data-i18n="iosStep3Body">
+                The app asks for the camera the first time you open it. It
+                needs the camera to read the label.
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="scanStepTitle">Point at the ingredients list</h3>
+              <p data-i18n="scanStepBody">
+                Hold the phone still over the ingredients list on a product.
+                When the corners in the picture turn green, the app takes a
+                picture by itself. There is nothing to press.
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="resultStepTitle">Read the result</h3>
+              <p data-i18n="resultStepBody">
+                The app shows which sweeteners and sugars it found, and how
+                they affect blood sugar.
+              </p>
+            </li>
+          </ol>
+
+          <div class="pilot-note">
+            <h3 data-i18n="iosFallbackTitle">If the link does not work</h3>
+            <p data-i18n="iosFallbackBody">
+              Get the app first. Open it, tap the gear at the top right, choose
+              Redeem code and type this code:
+            </p>
+            <p class="code-chip">
+              <code>GRATIS26</code>
+              <button class="copy-button" type="button" data-copy="GRATIS26" data-i18n="copyCode">Copy</button>
+            </p>
+          </div>
+
+          <div class="pilot-note">
+            <h3 data-i18n="subscriptionTitle">About the subscription</h3>
+            <p data-i18n="iosSubscriptionBody">
+              The code gives you The Sweetener Guide free for one year. After
+              that the subscription continues at the normal price unless you
+              cancel it. You cancel in the app: tap the gear, then Manage
+              subscription. The code only works if you do not already have a
+              subscription.
+            </p>
+            <p class="pilot-requirements" data-i18n="iosRequirements">
+              Requires an iPhone with iOS 17 or later.
+            </p>
+          </div>
+        </section>
+
+        <section class="platform-panel" data-platform="android" aria-labelledby="android-title">
+          <h2 id="android-title" data-i18n="androidTitle">On Android</h2>
+
+          <ol class="pilot-steps">
+            <li>
+              <h3 data-i18n="androidStep1Title">Get the app</h3>
+              <p data-i18n="androidStep1Body">
+                Tap the button and install The Sweetener Guide from Google Play.
+              </p>
+              <div class="pilot-action">
+                <a class="store-button on-light is-live" href="https://play.google.com/store/apps/details?id=com.crunchcats.ingredientscanner">
+                  <svg class="store-logo" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M3.6 2.3a1 1 0 0 0-.4.8v17.8a1 1 0 0 0 .4.8l10-9.7-10-9.7Zm11.2 8.5 2.9-2.8-9.8-5.6a1 1 0 0 0-.4-.1l7.3 8.5Zm0 2.4-7.3 8.5c.1 0 .3 0 .4-.1l9.8-5.6-2.9-2.8Zm4.2-3.7L17.2 12l1.8 2.5 2.4-1.4a1.3 1.3 0 0 0 0-2.2l-2.4-1.4Z"/>
+                  </svg>
+                  <span class="store-text">
+                    <small data-i18n="androidGetPrefix">Get it on</small>
+                    <strong data-i18n="storeGoogle">Google Play</strong>
+                  </span>
+                </a>
+                <figure class="qr-card pilot-qr">
+                  <img class="qr-code" src="qr-pilot-android.svg" width="180" height="180" alt="" data-i18n-alt="androidQrAlt">
+                  <figcaption data-i18n="androidQrCaption">
+                    On a computer? Point your phone's camera at the code.
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <h3 data-i18n="androidStep2Title">Open the app and allow the camera</h3>
+              <p data-i18n="androidStep2Body">
+                Tap Allow camera. The app needs the camera to read the label.
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="androidStep3Title">Redeem your code</h3>
+              <ol class="pilot-substeps">
+                <li data-i18n="androidStep3a">
+                  Tap the gear at the top right and choose See subscription.
+                </li>
+                <li data-i18n="androidStep3b">
+                  Choose Monthly and tap Start subscription.
+                </li>
+                <li data-i18n="androidStep3c">
+                  In Google Play's window, tap the payment method and choose
+                  Redeem code.
+                </li>
+                <li data-i18n="androidStep3d">
+                  Type this code and confirm:
+                </li>
+              </ol>
+              <p class="code-chip">
+                <code>VELKOMMEN26</code>
+                <button class="copy-button" type="button" data-copy="VELKOMMEN26" data-i18n="copyCode">Copy</button>
+              </p>
+              <p data-i18n="androidStep3Note">
+                Google asks for a payment method even though the first 90 days
+                are free. Nothing is charged until the 90 days have passed.
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="scanStepTitle">Point at the ingredients list</h3>
+              <p data-i18n="scanStepBody">
+                Hold the phone still over the ingredients list on a product.
+                When the corners in the picture turn green, the app takes a
+                picture by itself. There is nothing to press.
+              </p>
+            </li>
+            <li>
+              <h3 data-i18n="resultStepTitle">Read the result</h3>
+              <p data-i18n="resultStepBody">
+                The app shows which sweeteners and sugars it found, and how
+                they affect blood sugar.
+              </p>
+            </li>
+          </ol>
+
+          <div class="pilot-note">
+            <h3 data-i18n="subscriptionTitle">About the subscription</h3>
+            <p data-i18n="androidSubscriptionBody">
+              The code gives you The Sweetener Guide free for 90 days. After
+              that the subscription continues at 9 kr. a month unless you
+              cancel it. You cancel in the app: tap the gear, then Manage
+              subscription. The code can be used until 31 December 2026, and
+              only if you have not subscribed before.
+            </p>
+            <p class="pilot-requirements" data-i18n="androidRequirements">
+              Requires a phone with Android 8 or later.
+            </p>
+          </div>
+        </section>
+
+        <h2 data-i18n="tipsTitle">Getting a good scan</h2>
+        <ul>
+          <li data-i18n="tipLight">
+            Use good light, and get the whole ingredients list in the picture.
+          </li>
+          <li data-i18n="tipZoom">
+            If the text is small, zoom with two fingers. Tap the picture to
+            focus.
+          </li>
+          <li data-i18n="tipFeedback">
+            Does a result look wrong? Tap the speech bubble at the top left and
+            send us a message. That is exactly what the pilot is for.
+          </li>
+        </ul>
+
+        <h2 data-i18n="helpTitle">Need help?</h2>
+        <p data-i18n="helpBody">
+          Write to us, and we will help you get started.
+        </p>
+        <p>
+          <a class="legal-link" href="mailto:hello@gfconsulting.dk">hello@gfconsulting.dk</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner">
+        <div class="footer-top">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3.5c3.6 3.4 5.6 6.2 5.6 8.9A5.6 5.6 0 0 1 12 18a5.6 5.6 0 0 1-5.6-5.6c0-2.7 2-5.5 5.6-8.9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M9.6 12.6c.2 1.3 1.1 2.2 2.4 2.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="brand-name" data-i18n="appName">The Sweetener Guide</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footerTagline">
+            A calmer way to read a food label.
+          </p>
+        </div>
+
+        <p class="disclaimer">
+          <strong data-i18n="disclaimerTitle">Not medical advice.</strong>
+          <span data-i18n="disclaimerText">
+            The Sweetener Guide is an informational tool. It does not diagnose
+            or treat anything and it does not replace guidance from your doctor,
+            nurse, or dietitian. Always follow your care team's advice about
+            your diet and your medication.
+          </span>
+        </p>
+
+        <div class="footer-bottom">
+          <p class="copyright" data-i18n="copyright">
+            © 2026 The Sweetener Guide
+          </p>
+          <div class="footer-links">
+            <a class="footer-link" href="privacy.html" data-i18n="privacyLink">
+              Privacy policy
+            </a>
+            <a class="footer-link" href="terms.html" data-i18n="termsLink">
+              Terms of use
+            </a>
+            <a class="footer-link" href="support.html" data-i18n="supportLink">
+              Support
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="pilot-i18n.js"></script>
+    <script src="script.js"></script>
+    <script src="pilot.js"></script>
+  </body>
+</html>

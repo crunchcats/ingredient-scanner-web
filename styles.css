@@ -922,6 +922,166 @@ h3 {
 }
 
 /* ==========================================================================
+   Pilot — pilot.html, the install-and-redeem steps sent to pilot users
+   ========================================================================== */
+
+.platform-switch {
+  display: flex;
+  gap: var(--s-1);
+  margin-bottom: var(--s-6);
+  padding: var(--s-1);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-full);
+}
+
+.platform-option {
+  flex: 1;
+  min-height: 48px;
+  padding: 0 var(--s-4);
+  color: var(--muted);
+  border: 0;
+  border-radius: var(--r-full);
+  background: transparent;
+  font-size: var(--text-lg);
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.platform-option:hover {
+  color: var(--ink);
+}
+
+.platform-option.is-active {
+  color: var(--paper);
+  background: var(--green-700);
+  font-weight: 600;
+}
+
+.pilot .platform-panel > h2 {
+  margin-top: 0;
+}
+
+/* Without JavaScript both panels show, so the second needs its distance. */
+.pilot .platform-panel + .platform-panel > h2 {
+  margin-top: var(--s-7);
+}
+
+.pilot-steps {
+  margin: 0 0 var(--s-6);
+  padding: 0;
+  list-style: none;
+  counter-reset: pilot-step;
+}
+
+.pilot-steps > li {
+  position: relative;
+  margin-bottom: var(--s-5);
+  padding-left: var(--s-7);
+  counter-increment: pilot-step;
+}
+
+.pilot-steps > li::before {
+  content: counter(pilot-step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  color: var(--green-700);
+  border-radius: var(--r-full);
+  background: var(--mint-200);
+  font-weight: 700;
+}
+
+.pilot-steps h3 {
+  margin-top: 0;
+  padding-top: var(--s-1);
+}
+
+.pilot-substeps {
+  margin: 0 0 var(--s-4);
+  padding-left: var(--s-5);
+}
+
+/* A store button, and beside it on a computer the same link as a QR code. */
+.pilot-action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-5);
+  margin-bottom: var(--s-4);
+}
+
+.pilot-qr {
+  display: none;
+  margin: 0;
+}
+
+html[data-device="desktop"] .pilot-qr {
+  display: flex;
+}
+
+.pilot-note {
+  margin-bottom: var(--s-5);
+  padding: var(--s-5);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--mint-100);
+}
+
+.pilot-note h3 {
+  margin-top: 0;
+}
+
+.pilot-note > :last-child {
+  margin-bottom: 0;
+}
+
+.pilot .pilot-requirements {
+  font-size: var(--text-sm);
+}
+
+/* A code to type: large, spaced and selectable, with Copy beside it. */
+.pilot .code-chip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+.code-chip code {
+  padding: var(--s-2) var(--s-4);
+  color: var(--green-900);
+  border: 1px dashed var(--green-400);
+  border-radius: var(--r-sm);
+  background: #fff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.copy-button {
+  min-height: 44px;
+  padding: 0 var(--s-4);
+  color: var(--green-700);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-full);
+  background: var(--paper);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  border-color: var(--green-500);
+}
+
+/* ==========================================================================
    Responsive
    ========================================================================== */
 
